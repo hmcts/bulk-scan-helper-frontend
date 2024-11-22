@@ -5728,9 +5728,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bulk-scan-test-helper-frontend-bulk-scan-mock@workspace:.":
+"bulk-scan-helper-frontend@workspace:.":
   version: 0.0.0-use.local
-  resolution: "bulk-scan-test-helper-frontend-bulk-scan-mock@workspace:."
+  resolution: "bulk-scan-helper-frontend@workspace:."
   dependencies:
     "@babel/core": ^7.22.11
     "@babel/eslint-parser": ^7.22.11

@@ -1,4 +1,4 @@
-# bulk-scan-helper-frontend-bulk-scan-helper-frontend
+# bulk-scan-helper-frontend
 
 ## Getting Started
 
@@ -31,6 +31,10 @@ yarn start
 ```
 
 The applications's home page will be available at http://localhost:8787
+Please note you'll need to add cert and private pem files to src/main/resources.
+You'll also need to add demo_subscription_key and aat_subscription_key as environment variables
+and grab the related values from the Azure Key Vault.
+You'll also need to have globalprotect running to allow the sas token to be grabbed.
 
 ### Running with Docker
 
