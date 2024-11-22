@@ -1,5 +1,81 @@
 {% extends "template.njk" %}
+{% from "govuk/components/button/macro.njk" import govukButton %}
+{% from "govuk/components/file-upload/macro.njk" import govukFileUpload %}
+{% from "govuk/components/select/macro.njk" import govukSelect %}
+{% from "govuk/components/textarea/macro.njk" import govukTextarea %}
+
 
 {% block content %}
-  <h1 class="govuk-heading-xl">Default page template</h1>
+  <h1 class="govuk-heading-xl">Bulk scan upload</h1>
+
+  <form action="/" method="POST" enctype="multipart/form-data">
+
+    {{ govukSelect({
+      id: "environment",
+      name: "environment",
+      label: {
+        text: "Please select environment:"
+      },
+      items: [
+        {
+          value: "aat",
+          text: "aat"
+        },
+        {
+          value: "demo",
+          text: "demo",
+          selected: true
+        }
+      ]
+    }) }}
+
+    {{ govukSelect({
+      id: "jurisdiction",
+      name: "jurisdiction",
+      label: {
+        text: "Please select jurisdiction:"
+      },
+      items: [
+        {
+          value: "probate",
+          text: "probate",
+          selected: true
+        },
+        {
+          value: "privatelaw",
+          text: "privatelaw"
+        },
+        {
+          value: "sscs",
+          text: "sscs"
+        },
+        {
+          value: "divorce",
+          text: "divorce"
+        }
+      ]
+    }) }}
+
+    <input type="file" name="myfile" />
+
+    <br/><br/><br/>
+
+    <button type="submit" class="govuk-button" data-module="govuk-button">
+      Submit
+    </button>
+
+  </form>
+
+  {{ govukTextarea({
+    name: "output",
+    id: "output",
+    value: data.output,
+    label: {
+      text: "Output",
+      classes: "govuk-label--m"
+    },
+    disabled: true
+  }) }}
+
+
 {% endblock %}
