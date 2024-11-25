@@ -28,10 +28,19 @@ export class SecureRequester {
         this.subscriptionKey = process.env.demo_subscription_key || 'demo-not-set';
         console.log('Demo subscription key set');
         break;
+      case 'perftest':
+        this.subscriptionKey = process.env.perftest_subscription_key || 'perftest-not-set';
+        console.log('Perftest subscription key set');
+        break;
+      // For future use when ithc is set up
+      // case 'ithc':
+      //   this.subscriptionKey = process.env.ithc_subscription_key || 'ithc-not-set';
+      //   console.log('ITHC subscription key set');
+      //   break;
       default:
         this.subscriptionKey = 'default-not-set';
         console.error(`Invalid environment: ${environment}`);
-        throw new Error('Environment must be either "aat" or "demo"');
+        throw new Error('Environment must be set');
     }
   }
 
