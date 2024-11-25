@@ -32,9 +32,11 @@ yarn start
 
 The applications's home page will be available at http://localhost:8787
 Please note you'll need to add cert and private pem files to src/main/resources.
-You'll also need to add demo_subscription_key and aat_subscription_key as environment variables
-and grab the related values from the Azure Key Vault.
-You'll also need to have globalprotect running to allow the sas token to be grabbed.
+Please contact a member of the bulk scan team for these files.
+You'll also need to add demo_subscription_key, aat_subscription_key and
+perftest_subscription_key as environment variables. These are available in reform-scan-{env}
+key vaults under the value for 'bulk-scan-team-cft-apim-subscription-key'.
+You'll also need to have GlobalProtect running to allow the sas token to be retrieved.
 
 ### Running with Docker
 
