@@ -1,8 +1,8 @@
 apiVersion: v2
 appVersion: '1.0'
-description: A Helm chart for bulk-scan-helper-frontend-bulk-scan-helper-frontend App
-name: bulk-scan-helper-frontend-bulk-scan-helper-frontend
-home: https://github.com/hmcts/bulk-scan-helper-frontend-bulk-scan-helper-frontend
+description: A Helm chart for bulk-scan-helper-frontend App
+name: bulk-scan-helper-frontend
+home: https://github.com/hmcts/bulk-scan-helper-frontend
 version: 0.0.10
 dependencies:
   - name: nodejs

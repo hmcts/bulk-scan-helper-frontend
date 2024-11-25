@@ -1,8 +1,8 @@
 nodejs:
   applicationPort: 8787
   aadIdentityName: bulk-scan-helper-frontend
-  ingressHost: bulk-scan-helper-frontend-bulk-scan-helper-frontend.{{ .Values.global.environment }}.platform.hmcts.net
-  image: 'hmctspublic.azurecr.io/bulk-scan-helper-frontend/bulk-scan-helper-frontend:latest'
+  ingressHost: bulk-scan-helper-frontend.{{ .Values.global.environment }}.platform.hmcts.net
+  image: 'hmctspublic.azurecr.io/bulk-scan/helper-frontend:latest'
   #  Uncomment once the vault containing the app insights key has been set up
   #  keyVaults:
   #    bulk-scan-helper-frontend:
