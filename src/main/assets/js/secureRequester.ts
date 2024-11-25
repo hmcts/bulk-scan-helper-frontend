@@ -7,16 +7,14 @@ import axios, { AxiosResponse } from 'axios';
 export class SecureRequester {
   private httpsAgent: Agent;
   private baseUrl: string;
-  private certPath: string = resolve(__dirname, '../../resources/cert.pem');
-  private privateKeyPath: string = resolve(__dirname, '../../resources/private.pem');
   private subscriptionKey: string = 'not-set';
 
   constructor(environment: string) {
     this.baseUrl = 'https://cft-mtls-api-mgmt-appgw.'+environment+'.platform.hmcts.net';
     this.setSubscriptionKey(environment);
     this.httpsAgent = new Agent({
-      key: readFileSync(this.privateKeyPath),
-      cert: readFileSync(this.certPath),
+      key: readFileSync(resolve(__dirname, '../../resources/private.pem')),
+      cert: readFileSync(resolve(__dirname, '../../resources/cert.pem')),
     });
   }
 
