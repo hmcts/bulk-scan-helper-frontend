@@ -13,8 +13,7 @@ export default function (app: Application): void {
 
   app.get('/', async (req, res) => {
     try {
-      const data = { 'output': 'Ready...' };
-      res.render('home', { data });
+      res.render('home', { 'output': 'Ready...' });
     } catch (error) {
       console.error('Error making request:', error);
       res.render('home', {});
@@ -23,16 +22,17 @@ export default function (app: Application): void {
 
   app.post('/', upload.single('myfile'), async (req, res) => {
 
-    if (!req.file) {
-      return res.status(400).send('No file uploaded');
-    }
-
     //may need globalprotect on and f5 off else it can't get sas token
-    const output = 'Starting...';
-    const data = { output };
+    const data = { 'output': 'Starting...' };
     try {
-      const { environment, jurisdiction } = req.body;
 
+      if (!req.file) {
+        data.output += '\nNo file selected...';
+        res.render('home', { data });
+        return;
+      }
+
+      const { environment, jurisdiction } = req.body;
       let sasToken = '';
       const requester = new SecureRequester(environment);
       const response = await requester.getRequest('/reform-scan/token/' + jurisdiction);
