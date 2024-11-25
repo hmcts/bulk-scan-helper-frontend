@@ -1,22 +1,22 @@
-import * as fs from 'fs';
-import * as https from 'https';
-import * as path from 'path';
+import { readFileSync } from 'fs';
+import { Agent } from 'https';
+import { resolve } from 'path';
 
 import axios, { AxiosResponse } from 'axios';
 
 export class SecureRequester {
-  private httpsAgent: https.Agent;
+  private httpsAgent: Agent;
   private baseUrl: string;
-  private certPath: string = path.resolve(__dirname, '../../resources/cert.pem');
-  private privateKeyPath: string = path.resolve(__dirname, '../../resources/private.pem');
+  private certPath: string = resolve(__dirname, '../../resources/cert.pem');
+  private privateKeyPath: string = resolve(__dirname, '../../resources/private.pem');
   private subscriptionKey: string = 'not-set';
 
   constructor(environment: string) {
     this.baseUrl = 'https://cft-mtls-api-mgmt-appgw.'+environment+'.platform.hmcts.net';
     this.setSubscriptionKey(environment);
-    this.httpsAgent = new https.Agent({
-      key: fs.readFileSync(this.privateKeyPath),
-      cert: fs.readFileSync(this.certPath),
+    this.httpsAgent = new Agent({
+      key: readFileSync(this.privateKeyPath),
+      cert: readFileSync(this.certPath),
     });
   }
 
