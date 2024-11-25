@@ -33,7 +33,6 @@ export default function (app: Application): void {
     try {
       const { environment, jurisdiction } = req.body;
 
-      // ----------------------START: Grab the sas token------------------------
       let sasToken = '';
       const requester = new SecureRequester(environment);
       const response = await requester.getRequest('/reform-scan/token/' + jurisdiction);
@@ -41,9 +40,12 @@ export default function (app: Application): void {
         console.log('SAS token:', response.data.sas_token);
         data.output += '\nSAS token: ' + response.data.sas_token;
         sasToken = response.data.sas_token;
+      } else {
+        console.error('Error getting SAS token. Check connection to GlobalProtect VPN is on.');
+        data.output += '\nError getting SAS token. Check connection to GlobalProtect VPN is on.';
+        res.render('home', { data });
+        return;
       }
-      // ----------------------END: Grab the sas token------------------------
-      // ----------------------START: Generate a random file name------------------------
 
       const randomNumbers = Array.from({ length: 13 }, () => Math.floor(Math.random() * 10)).join('');
       const now = new Date();
@@ -57,12 +59,7 @@ export default function (app: Application): void {
       const newFileName = `${randomNumbers}_${formattedDate}`;
 
       data.output += '\nFile will be uploaded as: ' + newFileName;
-      const currentPath = req.file.path;
-      const newPath = path.join(path.dirname(currentPath), newFileName);
-      fs.renameSync(currentPath, newPath);
-
-      // ----------------------END: Generate a random file name------------------------
-      // ----------------------START: Upload the file------------------------
+      fs.renameSync(req.file.path, path.join(path.dirname(req.file.path), newFileName));
 
 
       const fileBlob = new Blob([req.file.buffer], { type: req.file.mimetype });
@@ -70,20 +67,21 @@ export default function (app: Application): void {
       formData.append('myfile', fileBlob, newFileName); //this may be where the name is set when uploading
 
       const blobUrl = `https://reformscan.${environment}.platform.hmcts.net/${jurisdiction}/${newFileName}?${sasToken}`;
-      const headers = {
-        'Content-Type': 'application/octet-stream',
-        'x-ms-date': new Date().toUTCString(),
-        'x-ms-blob-type': 'BlockBlob',
-      };
       try {
-        await axios.put(blobUrl, formData, { headers });
+        await axios.put(blobUrl, formData, {
+          headers: {
+            'Content-Type': 'application/octet-stream',
+            'x-ms-date': new Date().toUTCString(),
+            'x-ms-blob-type': 'BlockBlob',
+          }
+        });
         console.log('Upload succeeded');
         data.output += '\nUpload succeeded';
       } catch (error) {
         console.error('Error uploading file:', error);
         data.output += '\nError uploading file: ' + error;
       }
-      // ----------------------END: Upload the file------------------------
+
       res.render('home', { data });
     } catch (error) {
       data.output += '\nError making request: ' + error;
