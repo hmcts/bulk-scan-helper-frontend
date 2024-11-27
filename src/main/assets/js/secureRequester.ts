@@ -3,12 +3,20 @@ import { Agent } from 'https';
 import { resolve } from 'path';
 
 import axios, { AxiosResponse } from 'axios';
+import config from 'config';
 
+/**
+ * A class that makes secure requests to the APIM.
+ */
 export class SecureRequester {
   private httpsAgent: Agent;
   private baseUrl: string;
   private subscriptionKey: string = 'not-set';
 
+  /**
+   * Creates a new SecureRequester instance.
+   * @param environment
+   */
   constructor(environment: string) {
     this.baseUrl = 'https://cft-mtls-api-mgmt-appgw.'+environment+'.platform.hmcts.net';
     this.setSubscriptionKey(environment);
@@ -18,31 +26,24 @@ export class SecureRequester {
     });
   }
 
+  /**
+   * Sets the subscription key for the specified environment.
+   * @param environment
+   */
   setSubscriptionKey(environment: string): void {
-    switch (environment) {
-      case 'aat':
-        this.subscriptionKey = process.env.aat_subscription_key || 'aat-not-set';
-        console.log('AAT subscription key set');
-        break;
-      case 'demo':
-        this.subscriptionKey = process.env.demo_subscription_key || 'demo-not-set';
-        console.log('Demo subscription key set');
-        break;
-      case 'perftest':
-        this.subscriptionKey = process.env.perftest_subscription_key || 'perftest-not-set';
-        console.log('Perftest subscription key set');
-        break;
-      // For future use when ithc is set up
-      // case 'ithc':
-      //   this.subscriptionKey = process.env.ithc_subscription_key || 'ithc-not-set';
-      //   console.log('ITHC subscription key set');
-      //   break;
-      default:
-        this.subscriptionKey = 'default-not-set';
-        console.error(`Invalid environment: ${environment}`);
-        throw new Error('Environment must be set');
+    const subscriptionKeyPath = `subscriptionKeys.${environment}`;
+    console.log(`Checking for subscription key at path: ${subscriptionKeyPath}`);
+
+    if (config.has(subscriptionKeyPath)) {
+      this.subscriptionKey = config.get(subscriptionKeyPath);
+      console.log(`${environment} subscription key set`);
+    } else {
+      this.subscriptionKey = `${environment}-not-set`;
+      console.error(`Subscription key not found for environment: ${environment}`);
+      throw new Error('Environment must be set and have a valid subscription key');
     }
   }
+
 
   /**
    * Makes a GET request to the specified endpoint with mutual TLS authentication.
