@@ -3,7 +3,7 @@ import { spawnSync } from 'child_process';
 import * as propertiesVolume from '@hmcts/properties-volume';
 import config from 'config';
 import { Application } from 'express';
-import { get, set } from 'lodash';
+import { set } from 'lodash';
 
 export class PropertiesVolume {
   private keyName: string = 'bulk-scan-team-cft-apim-subscription-key';
@@ -16,12 +16,6 @@ export class PropertiesVolume {
       this.setLocalSecret('reform-scan-demo', this.keyName, 'subscriptionKeys.demo');
       this.setLocalSecret('reform-scan-perftest', this.keyName, 'subscriptionKeys.perftest');
       //this.setLocalSecret('reform-scan-ithc','bulk-scan-team-cft-apim-subscription-key', 'subscriptionKeys.ithc');
-    }
-  }
-
-  private setSecret(fromPath: string, toPath: string): void {
-    if (config.has(fromPath)) {
-      set(config, toPath, get(config, fromPath));
     }
   }
 
