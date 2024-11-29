@@ -11,7 +11,6 @@ export class PropertiesVolume {
   enableFor(server: Application): void {
     if (server.locals.ENV !== 'development') {
       propertiesVolume.addTo(config);
-      this.setSecret('secrets.bulk-scan-helper-frontend.AppInsightsInstrumentationKey', 'appInsights.instrumentationKey');
     } else {
       this.setLocalSecret('reform-scan-aat', this.keyName, 'subscriptionKeys.aat');
       this.setLocalSecret('reform-scan-demo', this.keyName, 'subscriptionKeys.demo');
