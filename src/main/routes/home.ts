@@ -11,41 +11,27 @@ const multer = require('multer');
 export default function (app: Application): void {
   const upload = multer({ dest: 'uploads/' });
 
-  app.get('/', async (req, res) => {
-    try {
-      res.render('home', { 'output': 'Ready...' });
-    } catch (error) {
-      console.error('Error making request:', error);
-      res.render('home', {});
-    }
-  });
+  app.get('/', (req, res) => res.render('home', { output: 'Ready...' }));
 
   app.post('/', upload.single('myfile'), async (req, res) => {
 
     //may need globalprotect on and f5 off else it can't get sas token
     const data = { 'output': 'Starting...' };
-    try {
 
-      if (!req.file) {
-        data.output += '\nNo file selected...';
-        res.render('home', { data });
-        return;
-      }
+    if (!req.file) {
+      data.output += '\nNo file selected...';
+      res.render('home', { data });
+      return;
+    }
 
-      const { environment, jurisdiction } = req.body;
-      let sasToken = '';
-      const requester = new SecureRequester(environment);
-      const response = await requester.getRequest('/reform-scan/token/' + jurisdiction);
-      if (response) {
-        console.log('SAS token:', response.data.sas_token);
-        data.output += '\nSAS token: ' + response.data.sas_token;
-        sasToken = response.data.sas_token;
-      } else {
-        console.error('Error getting SAS token. Check connection to GlobalProtect VPN is on.');
-        data.output += '\nError getting SAS token. Check connection to GlobalProtect VPN is on.';
-        res.render('home', { data });
-        return;
-      }
+    const { environment, jurisdiction } = req.body;
+    let sasToken = '';
+    const requester = new SecureRequester(environment);
+    const response = await requester.getRequest('/reform-scan/token/' + jurisdiction);
+    if (response?.status === 200 && response.data.sas_token) {
+      console.log('SAS token:', response.data.sas_token);
+      data.output += '\nSAS token: ' + response.data.sas_token;
+      sasToken = response.data.sas_token;
 
       const randomNumbers = Array.from({ length: 13 }, () => Math.floor(Math.random() * 10)).join('');
       const now = new Date();
@@ -83,10 +69,13 @@ export default function (app: Application): void {
         data.output += '\nError uploading file: ' + error;
       }
 
-      res.render('home', { data });
-    } catch (error) {
-      data.output += '\nError making request: ' + error;
+    } else {
+      console.error('Error getting SAS token. Check connection to GlobalProtect VPN is on.');
+      data.output += '\nError getting SAS token. Check connection to GlobalProtect VPN is on.';
       res.render('home', { data });
     }
+
+    res.render('home', { data });
+
   });
 }
