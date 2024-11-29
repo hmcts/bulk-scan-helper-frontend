@@ -50,15 +50,17 @@ export class SecureRequester {
    * @param endpoint - The API endpoint to call (appended to the base URL).
    * @returns - A Promise that resolves to the response data.
    */
-  async getRequest(endpoint: string): Promise<AxiosResponse | null> {
-    const response = await axios.get(`${this.baseUrl}${endpoint}`, {
-      headers: { 'Ocp-Apim-Subscription-Key': this.subscriptionKey },
-      httpsAgent: this.httpsAgent,
-    }).catch(error => {
-      console.error('Error making secure GET request:', error);
-      return null;  // or a default value if needed
-    });
-    return response;
+  async getRequest(endpoint: string): Promise<AxiosResponse> {
+    try {
+      const response = await axios.get(`${this.baseUrl}${endpoint}`, {
+        headers: { 'Ocp-Apim-Subscription-Key': this.subscriptionKey },
+        httpsAgent: this.httpsAgent,
+      });
+      return response;
+    } catch (error) {
+      throw new Error(`Failed to make secure GET request: ${error.message}`);
+    }
   }
+
 }
 
