@@ -1,9 +1,10 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
+import { FilenameGenerator } from './../assets/js/filenameGenerator';
 import { SecureRequester } from './../assets/js/secureRequester';
+import { UploadToBlob } from './../assets/js/uploadToBlob';
 
-import axios from 'axios';
 import { Application } from 'express';
 
 const multer = require('multer');
@@ -30,42 +31,16 @@ export default function (app: Application): void {
         data.output += '\nSAS token: ' + response.data.sas_token;
         sasToken = response.data.sas_token;
 
-        const randomNumbers = Array.from({ length: 13 }, () => Math.floor(Math.random() * 10)).join('');
-        const now = new Date();
-        const formattedDate = [
-          now.getDate().toString().padStart(2, '0'),
-          (now.getMonth() + 1).toString().padStart(2, '0'),
-          now.getFullYear(),
-          now.getHours().toString().padStart(2, '0'),
-          now.getMinutes().toString().padStart(2, '0'),
-          now.getSeconds().toString().padStart(2, '0'),
-        ].join('-');
-        const newFileName = `${randomNumbers}_${formattedDate}`;
-
+        const newFileName = new FilenameGenerator().generateFileName();
         data.output += '\nFile will be uploaded as: ' + newFileName;
         fs.renameSync(req.file.path, path.join(path.dirname(req.file.path), newFileName));
-
-
         const fileBlob = new Blob([req.file.buffer], { type: req.file.mimetype });
         const formData = new FormData();
         formData.append('myfile', fileBlob, newFileName); //this may be where the name is set when uploading
 
         const blobUrl = `https://reformscan.${environment}.platform.hmcts.net/${jurisdiction}/${newFileName}?${sasToken}`;
-        try {
-          await axios.put(blobUrl, formData, {
-            headers: {
-              'Content-Type': 'application/octet-stream',
-              'x-ms-date': new Date().toUTCString(),
-              'x-ms-blob-type': 'BlockBlob',
-            }
-          });
-          console.log('Upload succeeded');
-          data.output += '\nUpload succeeded';
-        } catch (error) {
-          console.error('Error uploading file:', error);
-          data.output += '\nError uploading file: ' + error;
-        }
-
+        const uploadResult = await new UploadToBlob().uploadFileToBlob(blobUrl, formData);
+        data.output += uploadResult;
       } else {
         console.error('Error getting SAS token. Check connection to GlobalProtect VPN is on.');
         data.output += '\nError getting SAS token. Check connection to GlobalProtect VPN is on.';
