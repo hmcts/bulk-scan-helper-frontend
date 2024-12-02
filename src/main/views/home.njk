@@ -88,9 +88,10 @@
 
     <div class="govuk-!-margin-5"></div>
 
-    <button type="submit" class="govuk-button" data-module="govuk-button">
-      Submit
-    </button>
+    {{ govukButton({
+      text: "Submit",
+      type: "submit"
+    }) }}
 
   </form>
 
