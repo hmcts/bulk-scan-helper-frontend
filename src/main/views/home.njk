@@ -1,5 +1,110 @@
 {% extends "template.njk" %}
+{% from "govuk/components/button/macro.njk" import govukButton %}
+{% from "govuk/components/file-upload/macro.njk" import govukFileUpload %}
+{% from "govuk/components/select/macro.njk" import govukSelect %}
+{% from "govuk/components/textarea/macro.njk" import govukTextarea %}
+
 
 {% block content %}
-  <h1 class="govuk-heading-xl">Default page template</h1>
+  <h1 class="govuk-heading-xl">Bulk scan upload</h1>
+
+  <form action="/" method="POST" enctype="multipart/form-data">
+
+    {{ govukSelect({
+      id: "environment",
+      name: "environment",
+      label: {
+        text: "Please select environment:"
+      },
+      items: [
+        {
+          value: "aat",
+          text: "aat"
+        },
+        {
+          value: "demo",
+          text: "demo"
+        },
+        {
+          value: "perftest",
+          text: "perftest"
+        },
+        {
+          value: "ithc",
+          text: "ithc",
+          disabled: true
+        },
+        {
+          value: "local",
+          text: "local",
+          disabled: true
+        }
+      ]
+    }) }}
+
+    {{ govukSelect({
+      id: "jurisdiction",
+      name: "jurisdiction",
+      label: {
+        text: "Please select jurisdiction:"
+      },
+      items: [
+        {
+          value: "probate",
+          text: "probate"
+        },
+        {
+          value: "sscs",
+          text: "sscs"
+        },
+        {
+          value: "divorce",
+          text: "divorce"
+        },
+        {
+          value: "cmc",
+          text: "cmc"
+        },
+        {
+          value: "privatelaw",
+          text: "privatelaw"
+        },
+        {
+          value: "publiclaw",
+          text: "publiclaw"
+        },
+        {
+          value: "nfd",
+          text: "nfd"
+        },
+        {
+          value: "finrem",
+          text: "finrem"
+        }
+      ]
+    }) }}
+
+    <input type="file" name="myfile" />
+
+    <div class="govuk-!-margin-5"></div>
+
+    {{ govukButton({
+      text: "Submit",
+      type: "submit"
+    }) }}
+
+  </form>
+
+  {{ govukTextarea({
+    name: "output",
+    id: "output",
+    value: data.output,
+    label: {
+      text: "Output",
+      classes: "govuk-label--m"
+    },
+    disabled: true
+  }) }}
+
+
 {% endblock %}
