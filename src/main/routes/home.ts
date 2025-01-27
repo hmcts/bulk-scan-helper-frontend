@@ -27,8 +27,7 @@ export default function (app: Application): void {
       const requester = new SecureRequester(environment);
       const response = await requester.getRequest('/reform-scan/token/' + jurisdiction);
       if (response?.status === 200 && response.data.sas_token) {
-        console.log('SAS token:', response.data.sas_token);
-        data.output += '\nSAS token: ' + response.data.sas_token;
+        data.output += '\nSAS token received';
         sasToken = response.data.sas_token;
 
         const newFileName = new FilenameGenerator().generateFileName();
