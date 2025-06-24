@@ -101,7 +101,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["sass", "npm:1.77.8"],\
             ["sass-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:14.2.1"],\
             ["serve-favicon", "npm:2.5.0"],\
-            ["sinon", "npm:18.0.0"],\
+            ["sinon", "npm:18.0.1"],\
             ["sinon-chai", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:3.7.0"],\
             ["style-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:4.0.0"],\
             ["stylelint", "npm:16.6.1"],\
@@ -8290,7 +8290,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["sass", "npm:1.77.8"],\
             ["sass-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:14.2.1"],\
             ["serve-favicon", "npm:2.5.0"],\
-            ["sinon", "npm:18.0.0"],\
+            ["sinon", "npm:18.0.1"],\
             ["sinon-chai", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:3.7.0"],\
             ["style-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:4.0.0"],\
             ["stylelint", "npm:16.6.1"],\
@@ -18336,10 +18336,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["sinon", [\
-        ["npm:18.0.0", {\
-          "packageLocation": "./.yarn/cache/sinon-npm-18.0.0-a220c4846c-5d7bc61c6c.zip/node_modules/sinon/",\
+        ["npm:18.0.1", {\
+          "packageLocation": "./.yarn/cache/sinon-npm-18.0.1-eb670134a1-6201b5381c.zip/node_modules/sinon/",\
           "packageDependencies": [\
-            ["sinon", "npm:18.0.0"],\
+            ["sinon", "npm:18.0.1"],\
             ["@sinonjs/commons", "npm:3.0.1"],\
             ["@sinonjs/fake-timers", "npm:11.2.2"],\
             ["@sinonjs/samsam", "npm:8.0.0"],\
@@ -18365,7 +18365,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/chai", null],\
             ["@types/sinon", null],\
             ["chai", "npm:4.4.1"],\
-            ["sinon", "npm:18.0.0"]\
+            ["sinon", "npm:18.0.1"]\
           ],\
           "packagePeers": [\
             "@types/chai",\
