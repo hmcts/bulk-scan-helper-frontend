@@ -53,7 +53,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/nunjucks", "npm:3.2.6"],\
             ["@types/require-directory", "npm:2.1.6"],\
             ["@types/serve-favicon", "npm:2.5.7"],\
-            ["@types/supertest", "npm:6.0.2"],\
+            ["@types/supertest", "npm:6.0.3"],\
             ["@typescript-eslint/eslint-plugin", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:7.18.0"],\
             ["@typescript-eslint/parser", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:7.18.0"],\
             ["applicationinsights", "npm:3.2.1"],\
@@ -6117,10 +6117,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/supertest", [\
-        ["npm:6.0.2", {\
-          "packageLocation": "./.yarn/cache/@types-supertest-npm-6.0.2-1f239669e4-1eafa47266.zip/node_modules/@types/supertest/",\
+        ["npm:6.0.3", {\
+          "packageLocation": "./.yarn/cache/@types-supertest-npm-6.0.3-0d43ae5953-5f75e41906.zip/node_modules/@types/supertest/",\
           "packageDependencies": [\
-            ["@types/supertest", "npm:6.0.2"],\
+            ["@types/supertest", "npm:6.0.3"],\
             ["@types/methods", "npm:1.1.4"],\
             ["@types/superagent", "npm:8.1.3"]\
           ],\
@@ -8256,7 +8256,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/nunjucks", "npm:3.2.6"],\
             ["@types/require-directory", "npm:2.1.6"],\
             ["@types/serve-favicon", "npm:2.5.7"],\
-            ["@types/supertest", "npm:6.0.2"],\
+            ["@types/supertest", "npm:6.0.3"],\
             ["@typescript-eslint/eslint-plugin", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:7.18.0"],\
             ["@typescript-eslint/parser", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:7.18.0"],\
             ["applicationinsights", "npm:3.2.1"],\
