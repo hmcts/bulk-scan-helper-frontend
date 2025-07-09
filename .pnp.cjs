@@ -48,7 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/helmet", "npm:4.0.0"],\
             ["@types/jest", "npm:29.5.14"],\
             ["@types/lodash", "npm:4.17.20"],\
-            ["@types/multer", "npm:1.4.12"],\
+            ["@types/multer", "npm:1.4.13"],\
             ["@types/node", "npm:20.14.15"],\
             ["@types/nunjucks", "npm:3.2.6"],\
             ["@types/require-directory", "npm:2.1.6"],\
@@ -88,7 +88,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:15.5.2"],\
             ["lodash", "npm:4.17.21"],\
             ["mini-css-extract-plugin", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:2.9.2"],\
-            ["multer", "npm:1.4.5-lts.1"],\
+            ["multer", "npm:1.4.5-lts.2"],\
             ["nock", "npm:13.5.6"],\
             ["nodemon", "npm:3.1.10"],\
             ["nunjucks", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:3.2.4"],\
@@ -5959,10 +5959,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/multer", [\
-        ["npm:1.4.12", {\
-          "packageLocation": "./.yarn/cache/@types-multer-npm-1.4.12-1ec6cd63ed-719cacf88e.zip/node_modules/@types/multer/",\
+        ["npm:1.4.13", {\
+          "packageLocation": "./.yarn/cache/@types-multer-npm-1.4.13-ed04db7ef3-9692a1ad5b.zip/node_modules/@types/multer/",\
           "packageDependencies": [\
-            ["@types/multer", "npm:1.4.12"],\
+            ["@types/multer", "npm:1.4.13"],\
             ["@types/express", "npm:5.0.3"]\
           ],\
           "linkType": "HARD"\
@@ -8273,7 +8273,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/helmet", "npm:4.0.0"],\
             ["@types/jest", "npm:29.5.14"],\
             ["@types/lodash", "npm:4.17.20"],\
-            ["@types/multer", "npm:1.4.12"],\
+            ["@types/multer", "npm:1.4.13"],\
             ["@types/node", "npm:20.14.15"],\
             ["@types/nunjucks", "npm:3.2.6"],\
             ["@types/require-directory", "npm:2.1.6"],\
@@ -8313,7 +8313,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:15.5.2"],\
             ["lodash", "npm:4.17.21"],\
             ["mini-css-extract-plugin", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:2.9.2"],\
-            ["multer", "npm:1.4.5-lts.1"],\
+            ["multer", "npm:1.4.5-lts.2"],\
             ["nock", "npm:13.5.6"],\
             ["nodemon", "npm:3.1.10"],\
             ["nunjucks", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:3.2.4"],\
@@ -15573,10 +15573,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["multer", [\
-        ["npm:1.4.5-lts.1", {\
-          "packageLocation": "./.yarn/cache/multer-npm-1.4.5-lts.1-2b83a2d180-d6dfa78a6e.zip/node_modules/multer/",\
+        ["npm:1.4.5-lts.2", {\
+          "packageLocation": "./.yarn/cache/multer-npm-1.4.5-lts.2-638a681fc1-b6f76a24c8.zip/node_modules/multer/",\
           "packageDependencies": [\
-            ["multer", "npm:1.4.5-lts.1"],\
+            ["multer", "npm:1.4.5-lts.2"],\
             ["append-field", "npm:1.0.0"],\
             ["busboy", "npm:1.6.0"],\
             ["concat-stream", "npm:1.6.2"],\
