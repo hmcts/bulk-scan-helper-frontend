@@ -100,7 +100,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["require-directory", "npm:2.1.1"],\
             ["sass", "npm:1.77.8"],\
             ["sass-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:14.2.1"],\
-            ["serve-favicon", "npm:2.5.0"],\
+            ["serve-favicon", "npm:2.5.1"],\
             ["sinon", "npm:18.0.1"],\
             ["sinon-chai", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:3.7.0"],\
             ["style-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:4.0.0"],\
@@ -8344,7 +8344,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["require-directory", "npm:2.1.1"],\
             ["sass", "npm:1.77.8"],\
             ["sass-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:14.2.1"],\
-            ["serve-favicon", "npm:2.5.0"],\
+            ["serve-favicon", "npm:2.5.1"],\
             ["sinon", "npm:18.0.1"],\
             ["sinon-chai", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:3.7.0"],\
             ["style-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:4.0.0"],\
@@ -15579,13 +15579,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:2.1.1", {\
-          "packageLocation": "./.yarn/cache/ms-npm-2.1.1-5b4fd72c86-0078a23cd9.zip/node_modules/ms/",\
-          "packageDependencies": [\
-            ["ms", "npm:2.1.1"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:2.1.2", {\
           "packageLocation": "./.yarn/cache/ms-npm-2.1.2-ec0c1512ff-673cdb2c31.zip/node_modules/ms/",\
           "packageDependencies": [\
@@ -18045,13 +18038,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["safe-buffer", [\
-        ["npm:5.1.1", {\
-          "packageLocation": "./.yarn/cache/safe-buffer-npm-5.1.1-cdaab52fc6-7f117b6045.zip/node_modules/safe-buffer/",\
-          "packageDependencies": [\
-            ["safe-buffer", "npm:5.1.1"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:5.1.2", {\
           "packageLocation": "./.yarn/cache/safe-buffer-npm-5.1.2-c27fedf6c4-f2f1f7943c.zip/node_modules/safe-buffer/",\
           "packageDependencies": [\
@@ -18259,15 +18245,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["serve-favicon", [\
-        ["npm:2.5.0", {\
-          "packageLocation": "./.yarn/cache/serve-favicon-npm-2.5.0-c5088a9dbc-f4dd0fbee3.zip/node_modules/serve-favicon/",\
+        ["npm:2.5.1", {\
+          "packageLocation": "./.yarn/cache/serve-favicon-npm-2.5.1-04576a0679-8b52657f8f.zip/node_modules/serve-favicon/",\
           "packageDependencies": [\
-            ["serve-favicon", "npm:2.5.0"],\
+            ["serve-favicon", "npm:2.5.1"],\
             ["etag", "npm:1.8.1"],\
             ["fresh", "npm:0.5.2"],\
-            ["ms", "npm:2.1.1"],\
+            ["ms", "npm:2.1.3"],\
             ["parseurl", "npm:1.3.3"],\
-            ["safe-buffer", "npm:5.1.1"]\
+            ["safe-buffer", "npm:5.2.1"]\
           ],\
           "linkType": "HARD"\
         }]\
