@@ -60,7 +60,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["archiver", "npm:7.0.1"],\
             ["axios", "npm:1.10.0"],\
             ["axios-debug-log", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:1.0.0"],\
-            ["babel-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:9.1.3"],\
+            ["babel-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:9.2.1"],\
             ["body-parser", "npm:1.20.3"],\
             ["chai", "npm:4.4.1"],\
             ["chai-as-promised", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:8.0.1"],\
@@ -8167,17 +8167,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["babel-loader", [\
-        ["npm:9.1.3", {\
-          "packageLocation": "./.yarn/cache/babel-loader-npm-9.1.3-cbf4da21df-b168dde5b8.zip/node_modules/babel-loader/",\
+        ["npm:9.2.1", {\
+          "packageLocation": "./.yarn/cache/babel-loader-npm-9.2.1-6cf3231de6-e1858d7625.zip/node_modules/babel-loader/",\
           "packageDependencies": [\
-            ["babel-loader", "npm:9.1.3"]\
+            ["babel-loader", "npm:9.2.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:9.1.3", {\
-          "packageLocation": "./.yarn/__virtual__/babel-loader-virtual-09346ee3a3/0/cache/babel-loader-npm-9.1.3-cbf4da21df-b168dde5b8.zip/node_modules/babel-loader/",\
+        ["virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:9.2.1", {\
+          "packageLocation": "./.yarn/__virtual__/babel-loader-virtual-9c8d44edac/0/cache/babel-loader-npm-9.2.1-6cf3231de6-e1858d7625.zip/node_modules/babel-loader/",\
           "packageDependencies": [\
-            ["babel-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:9.1.3"],\
+            ["babel-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:9.2.1"],\
             ["@babel/core", "npm:7.28.0"],\
             ["@types/babel__core", null],\
             ["@types/webpack", null],\
@@ -8777,7 +8777,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["archiver", "npm:7.0.1"],\
             ["axios", "npm:1.10.0"],\
             ["axios-debug-log", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:1.0.0"],\
-            ["babel-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:9.1.3"],\
+            ["babel-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:9.2.1"],\
             ["body-parser", "npm:1.20.3"],\
             ["chai", "npm:4.4.1"],\
             ["chai-as-promised", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:8.0.1"],\
