@@ -81,7 +81,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["govuk-frontend", "npm:4.10.1"],\
             ["helmet", "npm:7.2.0"],\
             ["html-webpack-plugin", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:5.6.3"],\
-            ["husky", "npm:9.0.11"],\
+            ["husky", "npm:9.1.7"],\
             ["jest", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:29.7.0"],\
             ["jest-html-reporter", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:3.10.2"],\
             ["jquery", "npm:3.7.1"],\
@@ -9738,7 +9738,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["govuk-frontend", "npm:4.10.1"],\
             ["helmet", "npm:7.2.0"],\
             ["html-webpack-plugin", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:5.6.3"],\
-            ["husky", "npm:9.0.11"],\
+            ["husky", "npm:9.1.7"],\
             ["jest", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:29.7.0"],\
             ["jest-html-reporter", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:3.10.2"],\
             ["jquery", "npm:3.7.1"],\
@@ -14475,10 +14475,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["husky", [\
-        ["npm:9.0.11", {\
-          "packageLocation": "./.yarn/cache/husky-npm-9.0.11-227bb1e4e4-1aebc3334d.zip/node_modules/husky/",\
+        ["npm:9.1.7", {\
+          "packageLocation": "./.yarn/cache/husky-npm-9.1.7-5b02eaabc4-c2412753f1.zip/node_modules/husky/",\
           "packageDependencies": [\
-            ["husky", "npm:9.0.11"]\
+            ["husky", "npm:9.1.7"]\
           ],\
           "linkType": "HARD"\
         }]\
