@@ -79,7 +79,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express-nunjucks", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:3.1.2"],\
             ["glob", "npm:10.4.5"],\
             ["govuk-frontend", "npm:4.10.1"],\
-            ["helmet", "npm:7.1.0"],\
+            ["helmet", "npm:7.2.0"],\
             ["html-webpack-plugin", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:5.6.3"],\
             ["husky", "npm:9.0.11"],\
             ["jest", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:29.7.0"],\
@@ -7167,7 +7167,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-helmet-npm-4.0.0-48d8baa6ce-ded60d8d99.zip/node_modules/@types/helmet/",\
           "packageDependencies": [\
             ["@types/helmet", "npm:4.0.0"],\
-            ["helmet", "npm:7.1.0"]\
+            ["helmet", "npm:8.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -9736,7 +9736,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express-nunjucks", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:3.1.2"],\
             ["glob", "npm:10.4.5"],\
             ["govuk-frontend", "npm:4.10.1"],\
-            ["helmet", "npm:7.1.0"],\
+            ["helmet", "npm:7.2.0"],\
             ["html-webpack-plugin", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:5.6.3"],\
             ["husky", "npm:9.0.11"],\
             ["jest", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:29.7.0"],\
@@ -14208,10 +14208,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["helmet", [\
-        ["npm:7.1.0", {\
-          "packageLocation": "./.yarn/cache/helmet-npm-7.1.0-0f9f70fa93-16aaa0df99.zip/node_modules/helmet/",\
+        ["npm:7.2.0", {\
+          "packageLocation": "./.yarn/cache/helmet-npm-7.2.0-c5ff2da1c6-d09247a28e.zip/node_modules/helmet/",\
           "packageDependencies": [\
-            ["helmet", "npm:7.1.0"]\
+            ["helmet", "npm:7.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:8.1.0", {\
+          "packageLocation": "./.yarn/cache/helmet-npm-8.1.0-a2193b660c-58febddc95.zip/node_modules/helmet/",\
+          "packageDependencies": [\
+            ["helmet", "npm:8.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
