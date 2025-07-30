@@ -98,7 +98,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:3.6.2"],\
             ["request", "npm:2.88.2"],\
             ["require-directory", "npm:2.1.1"],\
-            ["sass", "npm:1.77.8"],\
+            ["sass", "npm:1.89.2"],\
             ["sass-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:14.2.1"],\
             ["serve-favicon", "npm:2.5.1"],\
             ["sinon", "npm:18.0.1"],\
@@ -6172,6 +6172,150 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@parcel/watcher", [\
+        ["npm:2.5.1", {\
+          "packageLocation": "./.yarn/unplugged/@parcel-watcher-npm-2.5.1-018e8f2cc2/node_modules/@parcel/watcher/",\
+          "packageDependencies": [\
+            ["@parcel/watcher", "npm:2.5.1"],\
+            ["@parcel/watcher-android-arm64", "npm:2.5.1"],\
+            ["@parcel/watcher-darwin-arm64", "npm:2.5.1"],\
+            ["@parcel/watcher-darwin-x64", "npm:2.5.1"],\
+            ["@parcel/watcher-freebsd-x64", "npm:2.5.1"],\
+            ["@parcel/watcher-linux-arm-glibc", "npm:2.5.1"],\
+            ["@parcel/watcher-linux-arm-musl", "npm:2.5.1"],\
+            ["@parcel/watcher-linux-arm64-glibc", "npm:2.5.1"],\
+            ["@parcel/watcher-linux-arm64-musl", "npm:2.5.1"],\
+            ["@parcel/watcher-linux-x64-glibc", "npm:2.5.1"],\
+            ["@parcel/watcher-linux-x64-musl", "npm:2.5.1"],\
+            ["@parcel/watcher-win32-arm64", "npm:2.5.1"],\
+            ["@parcel/watcher-win32-ia32", "npm:2.5.1"],\
+            ["@parcel/watcher-win32-x64", "npm:2.5.1"],\
+            ["detect-libc", "npm:1.0.3"],\
+            ["is-glob", "npm:4.0.3"],\
+            ["micromatch", "npm:4.0.8"],\
+            ["node-addon-api", "npm:7.1.1"],\
+            ["node-gyp", "npm:9.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@parcel/watcher-android-arm64", [\
+        ["npm:2.5.1", {\
+          "packageLocation": "./.yarn/unplugged/@parcel-watcher-android-arm64-npm-2.5.1-5eeecb6e21/node_modules/@parcel/watcher-android-arm64/",\
+          "packageDependencies": [\
+            ["@parcel/watcher-android-arm64", "npm:2.5.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@parcel/watcher-darwin-arm64", [\
+        ["npm:2.5.1", {\
+          "packageLocation": "./.yarn/unplugged/@parcel-watcher-darwin-arm64-npm-2.5.1-12be747bca/node_modules/@parcel/watcher-darwin-arm64/",\
+          "packageDependencies": [\
+            ["@parcel/watcher-darwin-arm64", "npm:2.5.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@parcel/watcher-darwin-x64", [\
+        ["npm:2.5.1", {\
+          "packageLocation": "./.yarn/unplugged/@parcel-watcher-darwin-x64-npm-2.5.1-7a8bd09237/node_modules/@parcel/watcher-darwin-x64/",\
+          "packageDependencies": [\
+            ["@parcel/watcher-darwin-x64", "npm:2.5.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@parcel/watcher-freebsd-x64", [\
+        ["npm:2.5.1", {\
+          "packageLocation": "./.yarn/unplugged/@parcel-watcher-freebsd-x64-npm-2.5.1-8d68995fbd/node_modules/@parcel/watcher-freebsd-x64/",\
+          "packageDependencies": [\
+            ["@parcel/watcher-freebsd-x64", "npm:2.5.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@parcel/watcher-linux-arm-glibc", [\
+        ["npm:2.5.1", {\
+          "packageLocation": "./.yarn/unplugged/@parcel-watcher-linux-arm-glibc-npm-2.5.1-dbba115920/node_modules/@parcel/watcher-linux-arm-glibc/",\
+          "packageDependencies": [\
+            ["@parcel/watcher-linux-arm-glibc", "npm:2.5.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@parcel/watcher-linux-arm-musl", [\
+        ["npm:2.5.1", {\
+          "packageLocation": "./.yarn/unplugged/@parcel-watcher-linux-arm-musl-npm-2.5.1-4c02382019/node_modules/@parcel/watcher-linux-arm-musl/",\
+          "packageDependencies": [\
+            ["@parcel/watcher-linux-arm-musl", "npm:2.5.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@parcel/watcher-linux-arm64-glibc", [\
+        ["npm:2.5.1", {\
+          "packageLocation": "./.yarn/unplugged/@parcel-watcher-linux-arm64-glibc-npm-2.5.1-fcde7c8778/node_modules/@parcel/watcher-linux-arm64-glibc/",\
+          "packageDependencies": [\
+            ["@parcel/watcher-linux-arm64-glibc", "npm:2.5.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@parcel/watcher-linux-arm64-musl", [\
+        ["npm:2.5.1", {\
+          "packageLocation": "./.yarn/unplugged/@parcel-watcher-linux-arm64-musl-npm-2.5.1-130ca76a6e/node_modules/@parcel/watcher-linux-arm64-musl/",\
+          "packageDependencies": [\
+            ["@parcel/watcher-linux-arm64-musl", "npm:2.5.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@parcel/watcher-linux-x64-glibc", [\
+        ["npm:2.5.1", {\
+          "packageLocation": "./.yarn/unplugged/@parcel-watcher-linux-x64-glibc-npm-2.5.1-92a895ebe3/node_modules/@parcel/watcher-linux-x64-glibc/",\
+          "packageDependencies": [\
+            ["@parcel/watcher-linux-x64-glibc", "npm:2.5.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@parcel/watcher-linux-x64-musl", [\
+        ["npm:2.5.1", {\
+          "packageLocation": "./.yarn/unplugged/@parcel-watcher-linux-x64-musl-npm-2.5.1-1f030ca64b/node_modules/@parcel/watcher-linux-x64-musl/",\
+          "packageDependencies": [\
+            ["@parcel/watcher-linux-x64-musl", "npm:2.5.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@parcel/watcher-win32-arm64", [\
+        ["npm:2.5.1", {\
+          "packageLocation": "./.yarn/unplugged/@parcel-watcher-win32-arm64-npm-2.5.1-2dfe3131ac/node_modules/@parcel/watcher-win32-arm64/",\
+          "packageDependencies": [\
+            ["@parcel/watcher-win32-arm64", "npm:2.5.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@parcel/watcher-win32-ia32", [\
+        ["npm:2.5.1", {\
+          "packageLocation": "./.yarn/unplugged/@parcel-watcher-win32-ia32-npm-2.5.1-e70c7b871b/node_modules/@parcel/watcher-win32-ia32/",\
+          "packageDependencies": [\
+            ["@parcel/watcher-win32-ia32", "npm:2.5.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@parcel/watcher-win32-x64", [\
+        ["npm:2.5.1", {\
+          "packageLocation": "./.yarn/unplugged/@parcel-watcher-win32-x64-npm-2.5.1-6e3012ad80/node_modules/@parcel/watcher-win32-x64/",\
+          "packageDependencies": [\
+            ["@parcel/watcher-win32-x64", "npm:2.5.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@pkgjs/parseargs", [\
         ["npm:0.11.0", {\
           "packageLocation": "./.yarn/cache/@pkgjs-parseargs-npm-0.11.0-cd2a3fe948-6ad6a00fc4.zip/node_modules/@pkgjs/parseargs/",\
@@ -9572,7 +9716,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:3.6.2"],\
             ["request", "npm:2.88.2"],\
             ["require-directory", "npm:2.1.1"],\
-            ["sass", "npm:1.77.8"],\
+            ["sass", "npm:1.89.2"],\
             ["sass-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:14.2.1"],\
             ["serve-favicon", "npm:2.5.1"],\
             ["sinon", "npm:18.0.1"],\
@@ -11350,6 +11494,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/destroy-npm-1.2.0-6a511802e2-0acb300b74.zip/node_modules/destroy/",\
           "packageDependencies": [\
             ["destroy", "npm:1.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["detect-libc", [\
+        ["npm:1.0.3", {\
+          "packageLocation": "./.yarn/cache/detect-libc-npm-1.0.3-c30ac344d4-daaaed925f.zip/node_modules/detect-libc/",\
+          "packageDependencies": [\
+            ["detect-libc", "npm:1.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -14385,10 +14538,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["immutable", [\
-        ["npm:4.3.2", {\
-          "packageLocation": "./.yarn/cache/immutable-npm-4.3.2-413e7ca19b-bb1d0f3eb8.zip/node_modules/immutable/",\
+        ["npm:5.1.3", {\
+          "packageLocation": "./.yarn/cache/immutable-npm-5.1.3-27d8e1c55d-63a1df5f68.zip/node_modules/immutable/",\
           "packageDependencies": [\
-            ["immutable", "npm:4.3.2"]\
+            ["immutable", "npm:5.1.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -17840,6 +17993,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["node-addon-api", [\
+        ["npm:7.1.1", {\
+          "packageLocation": "./.yarn/unplugged/node-addon-api-npm-7.1.1-bfb302df19/node_modules/node-addon-api/",\
+          "packageDependencies": [\
+            ["node-addon-api", "npm:7.1.1"],\
+            ["node-gyp", "npm:9.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["node-forge", [\
         ["npm:1.3.1", {\
           "packageLocation": "./.yarn/cache/node-forge-npm-1.3.1-f31fd566cc-08fb072d3d.zip/node_modules/node-forge/",\
@@ -20324,12 +20487,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["sass", [\
-        ["npm:1.77.8", {\
-          "packageLocation": "./.yarn/cache/sass-npm-1.77.8-d0ad322666-6b5dce17fa.zip/node_modules/sass/",\
+        ["npm:1.89.2", {\
+          "packageLocation": "./.yarn/cache/sass-npm-1.89.2-963b4c170b-192a97ffe8.zip/node_modules/sass/",\
           "packageDependencies": [\
-            ["sass", "npm:1.77.8"],\
-            ["chokidar", "npm:3.6.0"],\
-            ["immutable", "npm:4.3.2"],\
+            ["sass", "npm:1.89.2"],\
+            ["@parcel/watcher", "npm:2.5.1"],\
+            ["chokidar", "npm:4.0.3"],\
+            ["immutable", "npm:5.1.3"],\
             ["source-map-js", "npm:1.0.2"]\
           ],\
           "linkType": "HARD"\
@@ -20355,7 +20519,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/webpack", null],\
             ["neo-async", "npm:2.6.2"],\
             ["node-sass", null],\
-            ["sass", "npm:1.77.8"],\
+            ["sass", "npm:1.89.2"],\
             ["sass-embedded", null],\
             ["webpack", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:5.99.9"]\
           ],\
