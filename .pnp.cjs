@@ -44,7 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/cookie-parser", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:1.4.9"],\
             ["@types/es6-promisify", "npm:6.0.4"],\
             ["@types/express", "npm:4.17.23"],\
-            ["@types/glob", "npm:8.1.0"],\
+            ["@types/glob", "npm:9.0.0"],\
             ["@types/helmet", "npm:4.0.0"],\
             ["@types/jest", "npm:29.5.14"],\
             ["@types/lodash", "npm:4.17.20"],\
@@ -7221,12 +7221,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/glob", [\
-        ["npm:8.1.0", {\
-          "packageLocation": "./.yarn/cache/@types-glob-npm-8.1.0-bdb9d0520c-9101f3a906.zip/node_modules/@types/glob/",\
+        ["npm:9.0.0", {\
+          "packageLocation": "./.yarn/cache/@types-glob-npm-9.0.0-8534eee0f9-a9ea3afe1e.zip/node_modules/@types/glob/",\
           "packageDependencies": [\
-            ["@types/glob", "npm:8.1.0"],\
-            ["@types/minimatch", "npm:5.1.2"],\
-            ["@types/node", "npm:24.3.0"]\
+            ["@types/glob", "npm:9.0.0"],\
+            ["glob", "npm:11.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7364,15 +7363,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-mime-npm-3.0.1-dec03536dc-4040fac73f.zip/node_modules/@types/mime/",\
           "packageDependencies": [\
             ["@types/mime", "npm:3.0.1"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@types/minimatch", [\
-        ["npm:5.1.2", {\
-          "packageLocation": "./.yarn/cache/@types-minimatch-npm-5.1.2-aab9c394d3-0391a28286.zip/node_modules/@types/minimatch/",\
-          "packageDependencies": [\
-            ["@types/minimatch", "npm:5.1.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -9848,7 +9838,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/cookie-parser", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:1.4.9"],\
             ["@types/es6-promisify", "npm:6.0.4"],\
             ["@types/express", "npm:4.17.23"],\
-            ["@types/glob", "npm:8.1.0"],\
+            ["@types/glob", "npm:9.0.0"],\
             ["@types/helmet", "npm:4.0.0"],\
             ["@types/jest", "npm:29.5.14"],\
             ["@types/lodash", "npm:4.17.20"],\
