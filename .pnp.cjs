@@ -63,7 +63,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:10.0.0"],\
             ["body-parser", "npm:1.20.3"],\
             ["chai", "npm:4.5.0"],\
-            ["chai-as-promised", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:8.0.1"],\
+            ["chai-as-promised", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:8.0.2"],\
             ["chokidar", "npm:4.0.3"],\
             ["codeceptjs", "npm:3.7.4"],\
             ["config", "npm:3.3.12"],\
@@ -9856,7 +9856,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:10.0.0"],\
             ["body-parser", "npm:1.20.3"],\
             ["chai", "npm:4.5.0"],\
-            ["chai-as-promised", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:8.0.1"],\
+            ["chai-as-promised", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:8.0.2"],\
             ["chokidar", "npm:4.0.3"],\
             ["codeceptjs", "npm:3.7.4"],\
             ["config", "npm:3.3.12"],\
@@ -10243,20 +10243,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["chai-as-promised", [\
-        ["npm:8.0.1", {\
-          "packageLocation": "./.yarn/cache/chai-as-promised-npm-8.0.1-ca46459400-7fa517bc70.zip/node_modules/chai-as-promised/",\
+        ["npm:8.0.2", {\
+          "packageLocation": "./.yarn/cache/chai-as-promised-npm-8.0.2-84997b3017-b3c52e414c.zip/node_modules/chai-as-promised/",\
           "packageDependencies": [\
-            ["chai-as-promised", "npm:8.0.1"]\
+            ["chai-as-promised", "npm:8.0.2"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:8.0.1", {\
-          "packageLocation": "./.yarn/__virtual__/chai-as-promised-virtual-933997c30a/0/cache/chai-as-promised-npm-8.0.1-ca46459400-7fa517bc70.zip/node_modules/chai-as-promised/",\
+        ["virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:8.0.2", {\
+          "packageLocation": "./.yarn/__virtual__/chai-as-promised-virtual-dea00ca5e7/0/cache/chai-as-promised-npm-8.0.2-84997b3017-b3c52e414c.zip/node_modules/chai-as-promised/",\
           "packageDependencies": [\
-            ["chai-as-promised", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:8.0.1"],\
+            ["chai-as-promised", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:8.0.2"],\
             ["@types/chai", null],\
             ["chai", "npm:4.5.0"],\
-            ["check-error", "npm:2.0.0"]\
+            ["check-error", "npm:2.1.1"]\
           ],\
           "packagePeers": [\
             "@types/chai",\
@@ -10320,10 +10320,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:2.0.0", {\
-          "packageLocation": "./.yarn/cache/check-error-npm-2.0.0-f3bb82e0c7-120f252c2e.zip/node_modules/check-error/",\
+        ["npm:2.1.1", {\
+          "packageLocation": "./.yarn/cache/check-error-npm-2.1.1-34e4ef357e-d785ed17b1.zip/node_modules/check-error/",\
           "packageDependencies": [\
-            ["check-error", "npm:2.0.0"]\
+            ["check-error", "npm:2.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
