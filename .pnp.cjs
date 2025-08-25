@@ -109,7 +109,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["stylelint-config-standard-scss", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:13.1.0"],\
             ["supertest", "npm:7.1.4"],\
             ["ts-jest", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:29.4.1"],\
-            ["ts-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:9.5.2"],\
+            ["ts-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:9.5.4"],\
             ["ts-node", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:10.9.2"],\
             ["tsconfig-paths", "npm:4.2.0"],\
             ["typescript", "patch:typescript@npm%3A5.9.2#~builtin<compat/typescript>::version=5.9.2&hash=5786d5"],\
@@ -9902,7 +9902,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["stylelint-config-standard-scss", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:13.1.0"],\
             ["supertest", "npm:7.1.4"],\
             ["ts-jest", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:29.4.1"],\
-            ["ts-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:9.5.2"],\
+            ["ts-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:9.5.4"],\
             ["ts-node", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:10.9.2"],\
             ["tsconfig-paths", "npm:4.2.0"],\
             ["typescript", "patch:typescript@npm%3A5.9.2#~builtin<compat/typescript>::version=5.9.2&hash=5786d5"],\
@@ -22513,17 +22513,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["ts-loader", [\
-        ["npm:9.5.2", {\
-          "packageLocation": "./.yarn/cache/ts-loader-npm-9.5.2-15fe2fd8a6-f4c117042e.zip/node_modules/ts-loader/",\
+        ["npm:9.5.4", {\
+          "packageLocation": "./.yarn/cache/ts-loader-npm-9.5.4-c828f5cb90-ee8a6883d0.zip/node_modules/ts-loader/",\
           "packageDependencies": [\
-            ["ts-loader", "npm:9.5.2"]\
+            ["ts-loader", "npm:9.5.4"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:9.5.2", {\
-          "packageLocation": "./.yarn/__virtual__/ts-loader-virtual-98a6a2064b/0/cache/ts-loader-npm-9.5.2-15fe2fd8a6-f4c117042e.zip/node_modules/ts-loader/",\
+        ["virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:9.5.4", {\
+          "packageLocation": "./.yarn/__virtual__/ts-loader-virtual-fe02fa0ee5/0/cache/ts-loader-npm-9.5.4-c828f5cb90-ee8a6883d0.zip/node_modules/ts-loader/",\
           "packageDependencies": [\
-            ["ts-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:9.5.2"],\
+            ["ts-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:9.5.4"],\
             ["@types/typescript", null],\
             ["@types/webpack", null],\
             ["chalk", "npm:4.1.2"],\
