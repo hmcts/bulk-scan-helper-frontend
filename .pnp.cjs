@@ -66,7 +66,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chai-as-promised", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:8.0.2"],\
             ["chokidar", "npm:4.0.3"],\
             ["codeceptjs", "npm:3.7.4"],\
-            ["config", "npm:3.3.12"],\
+            ["config", "npm:4.1.1"],\
             ["cookie-parser", "npm:1.4.7"],\
             ["copy-webpack-plugin", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:9.1.0"],\
             ["css-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:7.1.2"],\
@@ -9866,7 +9866,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chai-as-promised", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:8.0.2"],\
             ["chokidar", "npm:4.0.3"],\
             ["codeceptjs", "npm:3.7.4"],\
-            ["config", "npm:3.3.12"],\
+            ["config", "npm:4.1.1"],\
             ["cookie-parser", "npm:1.4.7"],\
             ["copy-webpack-plugin", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:9.1.0"],\
             ["css-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:7.1.2"],\
@@ -10903,10 +10903,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["config", [\
-        ["npm:3.3.12", {\
-          "packageLocation": "./.yarn/cache/config-npm-3.3.12-ad44bb207f-db1b7718ff.zip/node_modules/config/",\
+        ["npm:4.1.1", {\
+          "packageLocation": "./.yarn/cache/config-npm-4.1.1-59fd6fcb8f-304e4e5518.zip/node_modules/config/",\
           "packageDependencies": [\
-            ["config", "npm:3.3.12"],\
+            ["config", "npm:4.1.1"],\
             ["json5", "npm:2.2.3"]\
           ],\
           "linkType": "HARD"\
