@@ -37,7 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@hmcts/nodejs-healthcheck", "npm:1.8.6"],\
             ["@hmcts/nodejs-logging", "npm:4.0.4"],\
             ["@hmcts/properties-volume", "npm:1.2.0"],\
-            ["@types/archiver", "npm:6.0.3"],\
+            ["@types/archiver", "npm:6.0.4"],\
             ["@types/body-parser", "npm:1.19.6"],\
             ["@types/chai-as-promised", "npm:8.0.2"],\
             ["@types/config", "npm:3.3.5"],\
@@ -7005,10 +7005,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/archiver", [\
-        ["npm:6.0.3", {\
-          "packageLocation": "./.yarn/cache/@types-archiver-npm-6.0.3-a4b881a8b8-d0c5683cc6.zip/node_modules/@types/archiver/",\
+        ["npm:6.0.4", {\
+          "packageLocation": "./.yarn/cache/@types-archiver-npm-6.0.4-ea46dc7242-14d31e61ff.zip/node_modules/@types/archiver/",\
           "packageDependencies": [\
-            ["@types/archiver", "npm:6.0.3"],\
+            ["@types/archiver", "npm:6.0.4"],\
             ["@types/readdir-glob", "npm:1.1.5"]\
           ],\
           "linkType": "HARD"\
@@ -9868,7 +9868,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@hmcts/nodejs-healthcheck", "npm:1.8.6"],\
             ["@hmcts/nodejs-logging", "npm:4.0.4"],\
             ["@hmcts/properties-volume", "npm:1.2.0"],\
-            ["@types/archiver", "npm:6.0.3"],\
+            ["@types/archiver", "npm:6.0.4"],\
             ["@types/body-parser", "npm:1.19.6"],\
             ["@types/chai-as-promised", "npm:8.0.2"],\
             ["@types/config", "npm:3.3.5"],\
