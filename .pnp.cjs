@@ -77,7 +77,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-jest", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:28.14.0"],\
             ["express", "npm:4.21.2"],\
             ["express-nunjucks", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:3.1.2"],\
-            ["glob", "npm:10.4.5"],\
+            ["glob", "npm:11.1.0"],\
             ["govuk-frontend", "npm:4.10.1"],\
             ["helmet", "npm:7.2.0"],\
             ["html-webpack-plugin", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:5.6.4"],\
@@ -9531,6 +9531,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["balanced-match", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:4.0.4", {\
+          "packageLocation": "./.yarn/cache/balanced-match-npm-4.0.4-fd666b3c7f-fb07bb66a0.zip/node_modules/balanced-match/",\
+          "packageDependencies": [\
+            ["balanced-match", "npm:4.0.4"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["bare-events", [\
@@ -9716,6 +9723,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["brace-expansion", "npm:2.0.1"],\
             ["balanced-match", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:5.0.9", {\
+          "packageLocation": "./.yarn/cache/brace-expansion-npm-5.0.9-2717df6b49-81d14bf63c.zip/node_modules/brace-expansion/",\
+          "packageDependencies": [\
+            ["brace-expansion", "npm:5.0.9"],\
+            ["balanced-match", "npm:4.0.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -9908,7 +9923,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-jest", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:28.14.0"],\
             ["express", "npm:4.21.2"],\
             ["express-nunjucks", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:3.1.2"],\
-            ["glob", "npm:10.4.5"],\
+            ["glob", "npm:11.1.0"],\
             ["govuk-frontend", "npm:4.10.1"],\
             ["helmet", "npm:7.2.0"],\
             ["html-webpack-plugin", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:5.6.4"],\
@@ -14050,6 +14065,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
+        ["npm:11.1.0", {\
+          "packageLocation": "./.yarn/cache/glob-npm-11.1.0-9420ed5efe-1cfbdc743d.zip/node_modules/glob/",\
+          "packageDependencies": [\
+            ["glob", "npm:11.1.0"],\
+            ["foreground-child", "npm:3.3.1"],\
+            ["jackspeak", "npm:4.1.1"],\
+            ["minimatch", "npm:10.2.6"],\
+            ["minipass", "npm:7.1.2"],\
+            ["package-json-from-dist", "npm:1.0.1"],\
+            ["path-scurry", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:6.0.4", {\
           "packageLocation": "./.yarn/cache/glob-npm-6.0.4-dbb227ba4a-c4946c3d01.zip/node_modules/glob/",\
           "packageDependencies": [\
@@ -17824,6 +17852,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["minimatch", "npm:10.0.3"],\
             ["@isaacs/brace-expansion", "npm:5.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:10.2.6", {\
+          "packageLocation": "./.yarn/cache/minimatch-npm-10.2.6-fd0d1cf467-6f3d0ba765.zip/node_modules/minimatch/",\
+          "packageDependencies": [\
+            ["minimatch", "npm:10.2.6"],\
+            ["brace-expansion", "npm:5.0.9"]\
           ],\
           "linkType": "HARD"\
         }],\
