@@ -98,7 +98,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:3.6.2"],\
             ["request", "npm:2.88.2"],\
             ["require-directory", "npm:2.1.1"],\
-            ["sass", "npm:1.92.1"],\
+            ["sass", "npm:1.104.0"],\
             ["sass-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:14.2.1"],\
             ["serve-favicon", "npm:2.5.1"],\
             ["sinon", "npm:18.0.1"],\
@@ -9929,7 +9929,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:3.6.2"],\
             ["request", "npm:2.88.2"],\
             ["require-directory", "npm:2.1.1"],\
-            ["sass", "npm:1.92.1"],\
+            ["sass", "npm:1.104.0"],\
             ["sass-loader", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:14.2.1"],\
             ["serve-favicon", "npm:2.5.1"],\
             ["sinon", "npm:18.0.1"],\
@@ -10416,6 +10416,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["chokidar", "npm:4.0.3"],\
             ["readdirp", "npm:4.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:5.0.0", {\
+          "packageLocation": "./.yarn/cache/chokidar-npm-5.0.0-2f70d31c86-48c0d510d8.zip/node_modules/chokidar/",\
+          "packageDependencies": [\
+            ["chokidar", "npm:5.0.0"],\
+            ["readdirp", "npm:5.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -14783,10 +14791,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["immutable", [\
-        ["npm:5.1.3", {\
-          "packageLocation": "./.yarn/cache/immutable-npm-5.1.3-27d8e1c55d-63a1df5f68.zip/node_modules/immutable/",\
+        ["npm:5.1.9", {\
+          "packageLocation": "./.yarn/cache/immutable-npm-5.1.9-35365e455d-e24d57cfb1.zip/node_modules/immutable/",\
           "packageDependencies": [\
-            ["immutable", "npm:5.1.3"]\
+            ["immutable", "npm:5.1.9"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -20196,6 +20204,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["readdirp", "npm:4.0.2"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:5.1.1", {\
+          "packageLocation": "./.yarn/cache/readdirp-npm-5.1.1-b7e741d672-0444f42c71.zip/node_modules/readdirp/",\
+          "packageDependencies": [\
+            ["readdirp", "npm:5.1.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["readline", [\
@@ -20770,13 +20785,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["sass", [\
-        ["npm:1.92.1", {\
-          "packageLocation": "./.yarn/cache/sass-npm-1.92.1-a62a885e34-ec0d4da639.zip/node_modules/sass/",\
+        ["npm:1.104.0", {\
+          "packageLocation": "./.yarn/cache/sass-npm-1.104.0-72b5fb723b-c95bb1be78.zip/node_modules/sass/",\
           "packageDependencies": [\
-            ["sass", "npm:1.92.1"],\
+            ["sass", "npm:1.104.0"],\
             ["@parcel/watcher", "npm:2.5.1"],\
-            ["chokidar", "npm:4.0.3"],\
-            ["immutable", "npm:5.1.3"],\
+            ["chokidar", "npm:5.0.0"],\
+            ["immutable", "npm:5.1.9"],\
             ["source-map-js", "npm:1.0.2"]\
           ],\
           "linkType": "HARD"\
@@ -20802,7 +20817,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/webpack", null],\
             ["neo-async", "npm:2.6.2"],\
             ["node-sass", null],\
-            ["sass", "npm:1.92.1"],\
+            ["sass", "npm:1.104.0"],\
             ["sass-embedded", null],\
             ["webpack", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:5.101.3"]\
           ],\
