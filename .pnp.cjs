@@ -115,7 +115,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["typescript", "patch:typescript@npm%3A5.9.2#~builtin<compat/typescript>::version=5.9.2&hash=5786d5"],\
             ["webpack", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:5.101.3"],\
             ["webpack-cli", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:5.1.4"],\
-            ["webpack-dev-middleware", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:7.4.3"],\
+            ["webpack-dev-middleware", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:7.4.6"],\
             ["webpack-node-externals", "npm:3.0.0"]\
           ],\
           "linkType": "SOFT"\
@@ -4939,6 +4939,482 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@js-sdsl-ordered-map-npm-4.4.2-158f6c6b74-a927ae4ff8.zip/node_modules/@js-sdsl/ordered-map/",\
           "packageDependencies": [\
             ["@js-sdsl/ordered-map", "npm:4.4.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@jsonjoy.com/base64", [\
+        ["npm:1.1.2", {\
+          "packageLocation": "./.yarn/cache/@jsonjoy.com-base64-npm-1.1.2-dc65678552-00dbf9cbc6.zip/node_modules/@jsonjoy.com/base64/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/base64", "npm:1.1.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["npm:17.67.0", {\
+          "packageLocation": "./.yarn/cache/@jsonjoy.com-base64-npm-17.67.0-d9945ca724-e5c5b0dd3b.zip/node_modules/@jsonjoy.com/base64/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/base64", "npm:17.67.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:03d34b6354ea21ab2042174acdd10817e209215bcf03004683cea8f0e49814ed2f1bb796fcb47eb797ebec33ffb2ecc62e5a54678014668890ea1906b76448d9#npm:1.1.2", {\
+          "packageLocation": "./.yarn/__virtual__/@jsonjoy.com-base64-virtual-f7a60bda33/0/cache/@jsonjoy.com-base64-npm-1.1.2-dc65678552-00dbf9cbc6.zip/node_modules/@jsonjoy.com/base64/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/base64", "virtual:03d34b6354ea21ab2042174acdd10817e209215bcf03004683cea8f0e49814ed2f1bb796fcb47eb797ebec33ffb2ecc62e5a54678014668890ea1906b76448d9#npm:1.1.2"],\
+            ["@types/tslib", null],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:247b520c61d580ea4a32a6f7e953d0c60007d83994f25f158f1f03558fc5ab227e72fb1a6725e83952ec2ea2d621019e56ed8959c7ed0234194c659dd4d7a1a8#npm:17.67.0", {\
+          "packageLocation": "./.yarn/__virtual__/@jsonjoy.com-base64-virtual-49eb178990/0/cache/@jsonjoy.com-base64-npm-17.67.0-d9945ca724-e5c5b0dd3b.zip/node_modules/@jsonjoy.com/base64/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/base64", "virtual:247b520c61d580ea4a32a6f7e953d0c60007d83994f25f158f1f03558fc5ab227e72fb1a6725e83952ec2ea2d621019e56ed8959c7ed0234194c659dd4d7a1a8#npm:17.67.0"],\
+            ["@types/tslib", null],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@jsonjoy.com/buffers", [\
+        ["npm:1.2.1", {\
+          "packageLocation": "./.yarn/cache/@jsonjoy.com-buffers-npm-1.2.1-f2ba84ef96-5de11264a7.zip/node_modules/@jsonjoy.com/buffers/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/buffers", "npm:1.2.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["npm:17.67.0", {\
+          "packageLocation": "./.yarn/cache/@jsonjoy.com-buffers-npm-17.67.0-f623d68115-68b0f0268c.zip/node_modules/@jsonjoy.com/buffers/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/buffers", "npm:17.67.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:03d34b6354ea21ab2042174acdd10817e209215bcf03004683cea8f0e49814ed2f1bb796fcb47eb797ebec33ffb2ecc62e5a54678014668890ea1906b76448d9#npm:1.2.1", {\
+          "packageLocation": "./.yarn/__virtual__/@jsonjoy.com-buffers-virtual-aa58d3ad8e/0/cache/@jsonjoy.com-buffers-npm-1.2.1-f2ba84ef96-5de11264a7.zip/node_modules/@jsonjoy.com/buffers/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/buffers", "virtual:03d34b6354ea21ab2042174acdd10817e209215bcf03004683cea8f0e49814ed2f1bb796fcb47eb797ebec33ffb2ecc62e5a54678014668890ea1906b76448d9#npm:1.2.1"],\
+            ["@types/tslib", null],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:b19ae2eb04e078fbeeb63896ab07654b053b3c343d03341a804b8fc1226ab786693a7a0ffcfb3d5e7c100bd8b3a2198b8c26554c7f3930e4c6fc316943e4028e#npm:17.67.0", {\
+          "packageLocation": "./.yarn/__virtual__/@jsonjoy.com-buffers-virtual-7c23d1506a/0/cache/@jsonjoy.com-buffers-npm-17.67.0-f623d68115-68b0f0268c.zip/node_modules/@jsonjoy.com/buffers/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/buffers", "virtual:b19ae2eb04e078fbeeb63896ab07654b053b3c343d03341a804b8fc1226ab786693a7a0ffcfb3d5e7c100bd8b3a2198b8c26554c7f3930e4c6fc316943e4028e#npm:17.67.0"],\
+            ["@types/tslib", null],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@jsonjoy.com/codegen", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "./.yarn/cache/@jsonjoy.com-codegen-npm-1.0.0-db543376fc-77383ed703.zip/node_modules/@jsonjoy.com/codegen/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/codegen", "npm:1.0.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["npm:17.67.0", {\
+          "packageLocation": "./.yarn/cache/@jsonjoy.com-codegen-npm-17.67.0-767fa0f9c0-11195d6247.zip/node_modules/@jsonjoy.com/codegen/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/codegen", "npm:17.67.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:03d34b6354ea21ab2042174acdd10817e209215bcf03004683cea8f0e49814ed2f1bb796fcb47eb797ebec33ffb2ecc62e5a54678014668890ea1906b76448d9#npm:1.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/@jsonjoy.com-codegen-virtual-b903725149/0/cache/@jsonjoy.com-codegen-npm-1.0.0-db543376fc-77383ed703.zip/node_modules/@jsonjoy.com/codegen/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/codegen", "virtual:03d34b6354ea21ab2042174acdd10817e209215bcf03004683cea8f0e49814ed2f1bb796fcb47eb797ebec33ffb2ecc62e5a54678014668890ea1906b76448d9#npm:1.0.0"],\
+            ["@types/tslib", null],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:247b520c61d580ea4a32a6f7e953d0c60007d83994f25f158f1f03558fc5ab227e72fb1a6725e83952ec2ea2d621019e56ed8959c7ed0234194c659dd4d7a1a8#npm:17.67.0", {\
+          "packageLocation": "./.yarn/__virtual__/@jsonjoy.com-codegen-virtual-4ae32beedc/0/cache/@jsonjoy.com-codegen-npm-17.67.0-767fa0f9c0-11195d6247.zip/node_modules/@jsonjoy.com/codegen/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/codegen", "virtual:247b520c61d580ea4a32a6f7e953d0c60007d83994f25f158f1f03558fc5ab227e72fb1a6725e83952ec2ea2d621019e56ed8959c7ed0234194c659dd4d7a1a8#npm:17.67.0"],\
+            ["@types/tslib", null],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@jsonjoy.com/fs-core", [\
+        ["npm:4.80.0", {\
+          "packageLocation": "./.yarn/cache/@jsonjoy.com-fs-core-npm-4.80.0-dc9f26a2d8-5ee67cb428.zip/node_modules/@jsonjoy.com/fs-core/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/fs-core", "npm:4.80.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0", {\
+          "packageLocation": "./.yarn/__virtual__/@jsonjoy.com-fs-core-virtual-f7504cd63e/0/cache/@jsonjoy.com-fs-core-npm-4.80.0-dc9f26a2d8-5ee67cb428.zip/node_modules/@jsonjoy.com/fs-core/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/fs-core", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-node-builtins", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-node-utils", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@types/tslib", null],\
+            ["thingies", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:2.6.1"],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@jsonjoy.com/fs-fsa", [\
+        ["npm:4.80.0", {\
+          "packageLocation": "./.yarn/cache/@jsonjoy.com-fs-fsa-npm-4.80.0-81cf65cece-0f5a6d61dd.zip/node_modules/@jsonjoy.com/fs-fsa/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/fs-fsa", "npm:4.80.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0", {\
+          "packageLocation": "./.yarn/__virtual__/@jsonjoy.com-fs-fsa-virtual-9917522405/0/cache/@jsonjoy.com-fs-fsa-npm-4.80.0-81cf65cece-0f5a6d61dd.zip/node_modules/@jsonjoy.com/fs-fsa/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/fs-fsa", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-core", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-node-builtins", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-node-utils", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@types/tslib", null],\
+            ["thingies", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:2.6.1"],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@jsonjoy.com/fs-node", [\
+        ["npm:4.80.0", {\
+          "packageLocation": "./.yarn/cache/@jsonjoy.com-fs-node-npm-4.80.0-bbac05254e-dbb0ede8a5.zip/node_modules/@jsonjoy.com/fs-node/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/fs-node", "npm:4.80.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0", {\
+          "packageLocation": "./.yarn/__virtual__/@jsonjoy.com-fs-node-virtual-690c72a898/0/cache/@jsonjoy.com-fs-node-npm-4.80.0-bbac05254e-dbb0ede8a5.zip/node_modules/@jsonjoy.com/fs-node/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/fs-node", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-core", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-node-builtins", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-node-utils", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-print", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-snapshot", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@types/tslib", null],\
+            ["glob-to-regex.js", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:1.3.1"],\
+            ["thingies", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:2.6.1"],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@jsonjoy.com/fs-node-builtins", [\
+        ["npm:4.80.0", {\
+          "packageLocation": "./.yarn/cache/@jsonjoy.com-fs-node-builtins-npm-4.80.0-5d0676f521-6d5b818925.zip/node_modules/@jsonjoy.com/fs-node-builtins/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/fs-node-builtins", "npm:4.80.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0", {\
+          "packageLocation": "./.yarn/__virtual__/@jsonjoy.com-fs-node-builtins-virtual-907f06a7a4/0/cache/@jsonjoy.com-fs-node-builtins-npm-4.80.0-5d0676f521-6d5b818925.zip/node_modules/@jsonjoy.com/fs-node-builtins/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/fs-node-builtins", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@types/tslib", null],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@jsonjoy.com/fs-node-to-fsa", [\
+        ["npm:4.80.0", {\
+          "packageLocation": "./.yarn/cache/@jsonjoy.com-fs-node-to-fsa-npm-4.80.0-4f34874ae6-b63316ac63.zip/node_modules/@jsonjoy.com/fs-node-to-fsa/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/fs-node-to-fsa", "npm:4.80.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0", {\
+          "packageLocation": "./.yarn/__virtual__/@jsonjoy.com-fs-node-to-fsa-virtual-3fc128a0d7/0/cache/@jsonjoy.com-fs-node-to-fsa-npm-4.80.0-4f34874ae6-b63316ac63.zip/node_modules/@jsonjoy.com/fs-node-to-fsa/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/fs-node-to-fsa", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-fsa", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-node-builtins", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-node-utils", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@types/tslib", null],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@jsonjoy.com/fs-node-utils", [\
+        ["npm:4.80.0", {\
+          "packageLocation": "./.yarn/cache/@jsonjoy.com-fs-node-utils-npm-4.80.0-31a63e11bb-071881b6e6.zip/node_modules/@jsonjoy.com/fs-node-utils/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/fs-node-utils", "npm:4.80.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0", {\
+          "packageLocation": "./.yarn/__virtual__/@jsonjoy.com-fs-node-utils-virtual-cba47098fc/0/cache/@jsonjoy.com-fs-node-utils-npm-4.80.0-31a63e11bb-071881b6e6.zip/node_modules/@jsonjoy.com/fs-node-utils/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/fs-node-utils", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-node-builtins", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@types/tslib", null],\
+            ["glob-to-regex.js", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:1.3.1"],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@jsonjoy.com/fs-print", [\
+        ["npm:4.80.0", {\
+          "packageLocation": "./.yarn/cache/@jsonjoy.com-fs-print-npm-4.80.0-07522b38b3-f760fe74e6.zip/node_modules/@jsonjoy.com/fs-print/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/fs-print", "npm:4.80.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0", {\
+          "packageLocation": "./.yarn/__virtual__/@jsonjoy.com-fs-print-virtual-cfedc82b4d/0/cache/@jsonjoy.com-fs-print-npm-4.80.0-07522b38b3-f760fe74e6.zip/node_modules/@jsonjoy.com/fs-print/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/fs-print", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-node-utils", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@types/tslib", null],\
+            ["tree-dump", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:1.1.0"],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@jsonjoy.com/fs-snapshot", [\
+        ["npm:4.80.0", {\
+          "packageLocation": "./.yarn/cache/@jsonjoy.com-fs-snapshot-npm-4.80.0-2e514234c4-3750661957.zip/node_modules/@jsonjoy.com/fs-snapshot/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/fs-snapshot", "npm:4.80.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0", {\
+          "packageLocation": "./.yarn/__virtual__/@jsonjoy.com-fs-snapshot-virtual-b19ae2eb04/0/cache/@jsonjoy.com-fs-snapshot-npm-4.80.0-2e514234c4-3750661957.zip/node_modules/@jsonjoy.com/fs-snapshot/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/fs-snapshot", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/buffers", "virtual:b19ae2eb04e078fbeeb63896ab07654b053b3c343d03341a804b8fc1226ab786693a7a0ffcfb3d5e7c100bd8b3a2198b8c26554c7f3930e4c6fc316943e4028e#npm:17.67.0"],\
+            ["@jsonjoy.com/fs-node-utils", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/json-pack", "virtual:b19ae2eb04e078fbeeb63896ab07654b053b3c343d03341a804b8fc1226ab786693a7a0ffcfb3d5e7c100bd8b3a2198b8c26554c7f3930e4c6fc316943e4028e#npm:17.67.0"],\
+            ["@jsonjoy.com/util", "virtual:b19ae2eb04e078fbeeb63896ab07654b053b3c343d03341a804b8fc1226ab786693a7a0ffcfb3d5e7c100bd8b3a2198b8c26554c7f3930e4c6fc316943e4028e#npm:17.67.0"],\
+            ["@types/tslib", null],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@jsonjoy.com/json-pack", [\
+        ["npm:1.21.0", {\
+          "packageLocation": "./.yarn/cache/@jsonjoy.com-json-pack-npm-1.21.0-2577030a5d-653b02514b.zip/node_modules/@jsonjoy.com/json-pack/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/json-pack", "npm:1.21.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["npm:17.67.0", {\
+          "packageLocation": "./.yarn/cache/@jsonjoy.com-json-pack-npm-17.67.0-96709dd61c-f04ae650b2.zip/node_modules/@jsonjoy.com/json-pack/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/json-pack", "npm:17.67.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:1.21.0", {\
+          "packageLocation": "./.yarn/__virtual__/@jsonjoy.com-json-pack-virtual-03d34b6354/0/cache/@jsonjoy.com-json-pack-npm-1.21.0-2577030a5d-653b02514b.zip/node_modules/@jsonjoy.com/json-pack/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/json-pack", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:1.21.0"],\
+            ["@jsonjoy.com/base64", "virtual:03d34b6354ea21ab2042174acdd10817e209215bcf03004683cea8f0e49814ed2f1bb796fcb47eb797ebec33ffb2ecc62e5a54678014668890ea1906b76448d9#npm:1.1.2"],\
+            ["@jsonjoy.com/buffers", "virtual:03d34b6354ea21ab2042174acdd10817e209215bcf03004683cea8f0e49814ed2f1bb796fcb47eb797ebec33ffb2ecc62e5a54678014668890ea1906b76448d9#npm:1.2.1"],\
+            ["@jsonjoy.com/codegen", "virtual:03d34b6354ea21ab2042174acdd10817e209215bcf03004683cea8f0e49814ed2f1bb796fcb47eb797ebec33ffb2ecc62e5a54678014668890ea1906b76448d9#npm:1.0.0"],\
+            ["@jsonjoy.com/json-pointer", "virtual:03d34b6354ea21ab2042174acdd10817e209215bcf03004683cea8f0e49814ed2f1bb796fcb47eb797ebec33ffb2ecc62e5a54678014668890ea1906b76448d9#npm:1.0.2"],\
+            ["@jsonjoy.com/util", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:1.9.0"],\
+            ["@types/tslib", null],\
+            ["hyperdyperid", "npm:1.2.0"],\
+            ["thingies", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:2.6.1"],\
+            ["tree-dump", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:1.1.0"],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:b19ae2eb04e078fbeeb63896ab07654b053b3c343d03341a804b8fc1226ab786693a7a0ffcfb3d5e7c100bd8b3a2198b8c26554c7f3930e4c6fc316943e4028e#npm:17.67.0", {\
+          "packageLocation": "./.yarn/__virtual__/@jsonjoy.com-json-pack-virtual-247b520c61/0/cache/@jsonjoy.com-json-pack-npm-17.67.0-96709dd61c-f04ae650b2.zip/node_modules/@jsonjoy.com/json-pack/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/json-pack", "virtual:b19ae2eb04e078fbeeb63896ab07654b053b3c343d03341a804b8fc1226ab786693a7a0ffcfb3d5e7c100bd8b3a2198b8c26554c7f3930e4c6fc316943e4028e#npm:17.67.0"],\
+            ["@jsonjoy.com/base64", "virtual:247b520c61d580ea4a32a6f7e953d0c60007d83994f25f158f1f03558fc5ab227e72fb1a6725e83952ec2ea2d621019e56ed8959c7ed0234194c659dd4d7a1a8#npm:17.67.0"],\
+            ["@jsonjoy.com/buffers", "virtual:b19ae2eb04e078fbeeb63896ab07654b053b3c343d03341a804b8fc1226ab786693a7a0ffcfb3d5e7c100bd8b3a2198b8c26554c7f3930e4c6fc316943e4028e#npm:17.67.0"],\
+            ["@jsonjoy.com/codegen", "virtual:247b520c61d580ea4a32a6f7e953d0c60007d83994f25f158f1f03558fc5ab227e72fb1a6725e83952ec2ea2d621019e56ed8959c7ed0234194c659dd4d7a1a8#npm:17.67.0"],\
+            ["@jsonjoy.com/json-pointer", "virtual:247b520c61d580ea4a32a6f7e953d0c60007d83994f25f158f1f03558fc5ab227e72fb1a6725e83952ec2ea2d621019e56ed8959c7ed0234194c659dd4d7a1a8#npm:17.67.0"],\
+            ["@jsonjoy.com/util", "virtual:b19ae2eb04e078fbeeb63896ab07654b053b3c343d03341a804b8fc1226ab786693a7a0ffcfb3d5e7c100bd8b3a2198b8c26554c7f3930e4c6fc316943e4028e#npm:17.67.0"],\
+            ["@types/tslib", null],\
+            ["hyperdyperid", "npm:1.2.0"],\
+            ["thingies", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:2.6.1"],\
+            ["tree-dump", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:1.1.0"],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@jsonjoy.com/json-pointer", [\
+        ["npm:1.0.2", {\
+          "packageLocation": "./.yarn/cache/@jsonjoy.com-json-pointer-npm-1.0.2-fd725306ad-93b45eb2e5.zip/node_modules/@jsonjoy.com/json-pointer/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/json-pointer", "npm:1.0.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["npm:17.67.0", {\
+          "packageLocation": "./.yarn/cache/@jsonjoy.com-json-pointer-npm-17.67.0-8d710c8c50-6ff4fe4926.zip/node_modules/@jsonjoy.com/json-pointer/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/json-pointer", "npm:17.67.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:03d34b6354ea21ab2042174acdd10817e209215bcf03004683cea8f0e49814ed2f1bb796fcb47eb797ebec33ffb2ecc62e5a54678014668890ea1906b76448d9#npm:1.0.2", {\
+          "packageLocation": "./.yarn/__virtual__/@jsonjoy.com-json-pointer-virtual-870388fc5b/0/cache/@jsonjoy.com-json-pointer-npm-1.0.2-fd725306ad-93b45eb2e5.zip/node_modules/@jsonjoy.com/json-pointer/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/json-pointer", "virtual:03d34b6354ea21ab2042174acdd10817e209215bcf03004683cea8f0e49814ed2f1bb796fcb47eb797ebec33ffb2ecc62e5a54678014668890ea1906b76448d9#npm:1.0.2"],\
+            ["@jsonjoy.com/codegen", "virtual:03d34b6354ea21ab2042174acdd10817e209215bcf03004683cea8f0e49814ed2f1bb796fcb47eb797ebec33ffb2ecc62e5a54678014668890ea1906b76448d9#npm:1.0.0"],\
+            ["@jsonjoy.com/util", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:1.9.0"],\
+            ["@types/tslib", null],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:247b520c61d580ea4a32a6f7e953d0c60007d83994f25f158f1f03558fc5ab227e72fb1a6725e83952ec2ea2d621019e56ed8959c7ed0234194c659dd4d7a1a8#npm:17.67.0", {\
+          "packageLocation": "./.yarn/__virtual__/@jsonjoy.com-json-pointer-virtual-8e543b3e38/0/cache/@jsonjoy.com-json-pointer-npm-17.67.0-8d710c8c50-6ff4fe4926.zip/node_modules/@jsonjoy.com/json-pointer/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/json-pointer", "virtual:247b520c61d580ea4a32a6f7e953d0c60007d83994f25f158f1f03558fc5ab227e72fb1a6725e83952ec2ea2d621019e56ed8959c7ed0234194c659dd4d7a1a8#npm:17.67.0"],\
+            ["@jsonjoy.com/util", "virtual:b19ae2eb04e078fbeeb63896ab07654b053b3c343d03341a804b8fc1226ab786693a7a0ffcfb3d5e7c100bd8b3a2198b8c26554c7f3930e4c6fc316943e4028e#npm:17.67.0"],\
+            ["@types/tslib", null],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@jsonjoy.com/util", [\
+        ["npm:1.9.0", {\
+          "packageLocation": "./.yarn/cache/@jsonjoy.com-util-npm-1.9.0-103a7a7fb7-a22c49af07.zip/node_modules/@jsonjoy.com/util/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/util", "npm:1.9.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["npm:17.67.0", {\
+          "packageLocation": "./.yarn/cache/@jsonjoy.com-util-npm-17.67.0-99ba72b5f5-945c5e7e88.zip/node_modules/@jsonjoy.com/util/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/util", "npm:17.67.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:1.9.0", {\
+          "packageLocation": "./.yarn/__virtual__/@jsonjoy.com-util-virtual-ae1567efa8/0/cache/@jsonjoy.com-util-npm-1.9.0-103a7a7fb7-a22c49af07.zip/node_modules/@jsonjoy.com/util/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/util", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:1.9.0"],\
+            ["@jsonjoy.com/buffers", "virtual:03d34b6354ea21ab2042174acdd10817e209215bcf03004683cea8f0e49814ed2f1bb796fcb47eb797ebec33ffb2ecc62e5a54678014668890ea1906b76448d9#npm:1.2.1"],\
+            ["@jsonjoy.com/codegen", "virtual:03d34b6354ea21ab2042174acdd10817e209215bcf03004683cea8f0e49814ed2f1bb796fcb47eb797ebec33ffb2ecc62e5a54678014668890ea1906b76448d9#npm:1.0.0"],\
+            ["@types/tslib", null],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:b19ae2eb04e078fbeeb63896ab07654b053b3c343d03341a804b8fc1226ab786693a7a0ffcfb3d5e7c100bd8b3a2198b8c26554c7f3930e4c6fc316943e4028e#npm:17.67.0", {\
+          "packageLocation": "./.yarn/__virtual__/@jsonjoy.com-util-virtual-8f78de7cd4/0/cache/@jsonjoy.com-util-npm-17.67.0-99ba72b5f5-945c5e7e88.zip/node_modules/@jsonjoy.com/util/",\
+          "packageDependencies": [\
+            ["@jsonjoy.com/util", "virtual:b19ae2eb04e078fbeeb63896ab07654b053b3c343d03341a804b8fc1226ab786693a7a0ffcfb3d5e7c100bd8b3a2198b8c26554c7f3930e4c6fc316943e4028e#npm:17.67.0"],\
+            ["@jsonjoy.com/buffers", "virtual:b19ae2eb04e078fbeeb63896ab07654b053b3c343d03341a804b8fc1226ab786693a7a0ffcfb3d5e7c100bd8b3a2198b8c26554c7f3930e4c6fc316943e4028e#npm:17.67.0"],\
+            ["@jsonjoy.com/codegen", "virtual:247b520c61d580ea4a32a6f7e953d0c60007d83994f25f158f1f03558fc5ab227e72fb1a6725e83952ec2ea2d621019e56ed8959c7ed0234194c659dd4d7a1a8#npm:17.67.0"],\
+            ["@types/tslib", null],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -9946,7 +10422,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["typescript", "patch:typescript@npm%3A5.9.2#~builtin<compat/typescript>::version=5.9.2&hash=5786d5"],\
             ["webpack", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:5.101.3"],\
             ["webpack-cli", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:5.1.4"],\
-            ["webpack-dev-middleware", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:7.4.3"],\
+            ["webpack-dev-middleware", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:7.4.6"],\
             ["webpack-node-externals", "npm:3.0.0"]\
           ],\
           "linkType": "SOFT"\
@@ -14106,6 +14582,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["glob-to-regex.js", [\
+        ["npm:1.3.1", {\
+          "packageLocation": "./.yarn/cache/glob-to-regex.js-npm-1.3.1-da4c33afb5-ae0becabb0.zip/node_modules/glob-to-regex.js/",\
+          "packageDependencies": [\
+            ["glob-to-regex.js", "npm:1.3.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:1.3.1", {\
+          "packageLocation": "./.yarn/__virtual__/glob-to-regex.js-virtual-69dbc16a43/0/cache/glob-to-regex.js-npm-1.3.1-da4c33afb5-ae0becabb0.zip/node_modules/glob-to-regex.js/",\
+          "packageDependencies": [\
+            ["glob-to-regex.js", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:1.3.1"],\
+            ["@types/tslib", null],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["glob-to-regexp", [\
         ["npm:0.4.1", {\
           "packageLocation": "./.yarn/cache/glob-to-regexp-npm-0.4.1-cd697e0fc7-e795f4e8f0.zip/node_modules/glob-to-regexp/",\
@@ -14687,6 +15185,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/husky-npm-9.1.7-5b02eaabc4-c2412753f1.zip/node_modules/husky/",\
           "packageDependencies": [\
             ["husky", "npm:9.1.7"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["hyperdyperid", [\
+        ["npm:1.2.0", {\
+          "packageLocation": "./.yarn/cache/hyperdyperid-npm-1.2.0-47be2553af-210029d1c8.zip/node_modules/hyperdyperid/",\
+          "packageDependencies": [\
+            ["hyperdyperid", "npm:1.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -17390,10 +17897,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["memfs", [\
-        ["npm:4.8.2", {\
-          "packageLocation": "./.yarn/cache/memfs-npm-4.8.2-8e43f0a298-ffbc79e895.zip/node_modules/memfs/",\
+        ["npm:4.80.0", {\
+          "packageLocation": "./.yarn/cache/memfs-npm-4.80.0-12d93072b9-173dfcf89d.zip/node_modules/memfs/",\
           "packageDependencies": [\
-            ["memfs", "npm:4.8.2"],\
+            ["memfs", "npm:4.80.0"],\
+            ["@jsonjoy.com/fs-core", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-fsa", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-node", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-node-builtins", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-node-to-fsa", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-node-utils", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-print", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/fs-snapshot", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:4.80.0"],\
+            ["@jsonjoy.com/json-pack", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:1.21.0"],\
+            ["@jsonjoy.com/util", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:1.9.0"],\
+            ["glob-to-regex.js", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:1.3.1"],\
+            ["thingies", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:2.6.1"],\
+            ["tree-dump", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:1.1.0"],\
             ["tslib", "npm:2.6.2"]\
           ],\
           "linkType": "HARD"\
@@ -22276,6 +22796,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["thingies", [\
+        ["npm:2.6.1", {\
+          "packageLocation": "./.yarn/cache/thingies-npm-2.6.1-6ae35e38e6-84eadddf1a.zip/node_modules/thingies/",\
+          "packageDependencies": [\
+            ["thingies", "npm:2.6.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:2.6.1", {\
+          "packageLocation": "./.yarn/__virtual__/thingies-virtual-1fd9869f23/0/cache/thingies-npm-2.6.1-6ae35e38e6-84eadddf1a.zip/node_modules/thingies/",\
+          "packageDependencies": [\
+            ["thingies", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:2.6.1"],\
+            ["@types/tslib", null],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["throat", [\
         ["npm:5.0.0", {\
           "packageLocation": "./.yarn/cache/throat-npm-5.0.0-288ce6540a-031ff7f443.zip/node_modules/throat/",\
@@ -22384,6 +22926,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["trace-event-lib", "npm:1.4.1"],\
             ["browser-process-hrtime", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tree-dump", [\
+        ["npm:1.1.0", {\
+          "packageLocation": "./.yarn/cache/tree-dump-npm-1.1.0-93d1ab287b-5f6fcd1b81.zip/node_modules/tree-dump/",\
+          "packageDependencies": [\
+            ["tree-dump", "npm:1.1.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:1.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/tree-dump-virtual-34de1a9513/0/cache/tree-dump-npm-1.1.0-93d1ab287b-5f6fcd1b81.zip/node_modules/tree-dump/",\
+          "packageDependencies": [\
+            ["tree-dump", "virtual:12d93072b97f8d94716dbb57a42e290019c9842c308bc59dce512e578a18b7c0c34ab018c498e2fcaec75670285d2c893cddaa072d6ab861625f80f6c2602d40#npm:1.1.0"],\
+            ["@types/tslib", null],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tslib",\
+            "tslib"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -23353,20 +23917,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["webpack-dev-middleware", [\
-        ["npm:7.4.3", {\
-          "packageLocation": "./.yarn/cache/webpack-dev-middleware-npm-7.4.3-75c4065d08-3f4a0cbf32.zip/node_modules/webpack-dev-middleware/",\
+        ["npm:7.4.6", {\
+          "packageLocation": "./.yarn/cache/webpack-dev-middleware-npm-7.4.6-3d297852b8-48374d6282.zip/node_modules/webpack-dev-middleware/",\
           "packageDependencies": [\
-            ["webpack-dev-middleware", "npm:7.4.3"]\
+            ["webpack-dev-middleware", "npm:7.4.6"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:7.4.3", {\
-          "packageLocation": "./.yarn/__virtual__/webpack-dev-middleware-virtual-dbe29cf3d0/0/cache/webpack-dev-middleware-npm-7.4.3-75c4065d08-3f4a0cbf32.zip/node_modules/webpack-dev-middleware/",\
+        ["virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:7.4.6", {\
+          "packageLocation": "./.yarn/__virtual__/webpack-dev-middleware-virtual-4b555ad062/0/cache/webpack-dev-middleware-npm-7.4.6-3d297852b8-48374d6282.zip/node_modules/webpack-dev-middleware/",\
           "packageDependencies": [\
-            ["webpack-dev-middleware", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:7.4.3"],\
+            ["webpack-dev-middleware", "virtual:77948880c5459fc19e379dc962f0946c2ffbdc0243a0ce3224c42463c8595c80e9c9b56323e9c94666f7ef50a0b36def60ba9e86a8975b6daebce5fb5c3e0c50#npm:7.4.6"],\
             ["@types/webpack", null],\
             ["colorette", "npm:2.0.20"],\
-            ["memfs", "npm:4.8.2"],\
+            ["memfs", "npm:4.80.0"],\
             ["mime-types", "npm:3.0.1"],\
             ["on-finished", "npm:2.4.1"],\
             ["range-parser", "npm:1.2.1"],\
