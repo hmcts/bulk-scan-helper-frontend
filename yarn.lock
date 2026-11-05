@@ -10019,7 +10019,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@npm:2.3.2, fsevents@npm:^2.3.2, fsevents@npm:~2.3.2":
+"fsevents@npm:^2.3.2, fsevents@npm:~2.3.2":
   version: 2.3.2
   resolution: "fsevents@npm:2.3.2"
   dependencies:
@@ -10029,7 +10029,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@2.3.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@^2.3.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
+"fsevents@patch:fsevents@^2.3.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
   resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
   dependencies:
@@ -15056,27 +15056,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright-core@npm:1.55.0":
-  version: 1.55.0
-  resolution: "playwright-core@npm:1.55.0"
+"playwright-core@npm:1.65.0":
+  version: 1.65.0
+  resolution: "playwright-core@npm:1.65.0"
   bin:
     playwright-core: cli.js
-  checksum: 689955388fa1d46cdbc93d4957688d48c0033ccdcb852f97f9f5e8aa6482a928c885cf06b02eb5acde9426aa1222720456127a8f7793792fef3f7bdb159bd8b2
+  checksum: 1c726cd73e5fdc9a8b07938604c9b0cac15ea509a72fdbe0f6588154159431dfa9ac2c6809146439e743ff44fd8dda8591462fe4117dd39ab81f5c7a77f635f6
   languageName: node
   linkType: hard
 
 "playwright@npm:^1.36.2":
-  version: 1.55.0
-  resolution: "playwright@npm:1.55.0"
+  version: 1.65.0
+  resolution: "playwright@npm:1.65.0"
   dependencies:
-    fsevents: 2.3.2
-    playwright-core: 1.55.0
-  dependenciesMeta:
-    fsevents:
-      optional: true
+    playwright-core: 1.65.0
   bin:
     playwright: cli.js
-  checksum: 6165c649a4923651305957d54203ee9f6c80fb5b7d237848c13a98c168c599041eefb6af493f1dbe5e793aa2e24956a1a7205cb1864a64a97f01c7c7189885b7
+  checksum: b581862b94eb4aaeec8a5816c504d0b6283e8dcf7dec884ccb93e8ed1e2f124355f5703b44f6ee470e78af70e538b6511d02cc91305935fabdd97ab26826b24e
   languageName: node
   linkType: hard
 
